@@ -45,9 +45,14 @@
    + Readme, recolección de todas las evidencias.
    + Verificación del maquetado según tipo de vista.
    + Verificación de la funcionalidad según tipo de vista.
+   Herramientas utilizadas: Trello.
+   Tiempo utilizado: 1 hr.
+   
+![imagen](assets/images/trello.png)
 
 2. **Prototipado con correcciones**
    + Maquetado y funcionalidad de las diferentes vistas.
+   Tiempo utilizado: 4 hrs.
 
 ## Herramientas Utilizadas
 
