@@ -1,0 +1,27 @@
+
+/*ESTILOS PARA VISTA PRINCIPAL*/
+header nav.navbar.navbar-default{
+  background: linear-gradient( rgb(205,91,69)60%, rgb(205,91,69));
+}
+div.navbar-header{
+  padding: 10px;
+}
+div.form-group {
+    margin-bottom: 0;
+    outline: none;
+}
+
+section.filters{
+  margin-bottom: 20px;
+}
+.carousel-inner>.item>img.height-222{
+  width: 100%;
+  height: 222px;
+}
+img.height-189{
+  width: 100%;
+  height: 189px;
+}
+div.width100, select.width100{
+  width: 100%;
+}
