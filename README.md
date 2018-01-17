@@ -33,9 +33,8 @@
    Tiempo utilizado: 1 1/2 hr.
 
 ![imagen](assets/images/Encuesta-preguntaUno.png)
-![imagen](assets/images/skecth-mobile.jpg)
-![imagen](assets/images/skecth-desktop.jpg)
-
+![imagen](assets/images/sketch-mobile.jpg)
+![imagen](assets/images/sketch-desktop.jpg)
 
  **MIÉRCOLES: 16/01/2017**
 
