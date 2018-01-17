@@ -34,7 +34,7 @@
 
 ![imagen](assets/images/Encuesta-preguntaUno.png)
 ![imagen](assets/images/skecth-mobile.jpg)
-![imagen](assets/images/skecch-desktop.jpg)
+![imagen](assets/images/skecth-desktop.jpg)
 
 
  **MIÉRCOLES: 16/01/2017**
