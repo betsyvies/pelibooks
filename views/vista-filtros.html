@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PeliBooks - Home</title>
+    <!--Añadiendo color a la barra de navegador que se verá desde versión movile-->
+    <meta name="theme-color" content="#cd5b45"/>
+    <link rel="icon" type="image/png" href="assets/images/icon.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Mi css -->
+    <link rel="stylesheet" type="text/css" href="../css/main-vistas.css">
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="navbar-header">
+              <div class="col-xs-2 col-sm-2">
+                <a class="pull-left" href="#">
+                  <img alt="Brand" src="../assets/images/temporal.png" class="img-responsive logo-img">
+                </a>
+              </div>
+              <div class="col-xs-8 col-sm-6">
+                <form class="input-header">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                      <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-xs-2">
+                <a class="pull-right" href="#">
+                  <img alt="Brand" src="../assets/images/default.gif" class="img-responsive img-circle hidden">
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right col-xs-12 col-sm-12 col-md-12 col-lg-12" id="bs-example-navbar-collapse-1">
+                <ul class="nav">
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#modal-sesion" class="white">Log In</a>
+                  </li>
+                  <li class="active">
+                    <a href="#" class="white" id="myBtn">Sign Up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--Modal iniciar sesión-->
+      <div id="modal-sesion" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <img class="image-modal-sesion col-xs-4 col-xs-offset-4" src="../assets/images/user.png" alt="User">
+            </div>
+            <div class="modal-body">
+              <form class="form">
+                <div class="form-group col-xs-12">
+                  <label class="sr-only">Email</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    </div>
+                    <input type="text" class="form-control" id="email-login" placeholder="Email">
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                    </div>
+                    <input type="text" class="form-control" id="psw-login" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-bottom">
+                  <button id="login-button" type="submit" class="btn btn-primary col-xs-12" >Log In</button>
+                  <button type="submit" class="btn btn-primary col-xs-12">Log In with Google</button>
+                  <p class="white">¿Forgot password?
+                    <a href="#" class="font-style">Click Here</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!--Modal regístrate sesión-->
+      <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img class="image-modal-sesion col-xs-4 col-xs-offset-4" src="../assets/images/user.png" alt="User">
+                  <span class="glyphicon glyphicon-lock"></span>Sign up</h4>
+              </div>
+              <div class="modal-body">
+                <form role="form">
+                  <div class="form-group">
+                    <label for="usrname" class="mt-2">
+                      <span class="glyphicon glyphicon-user mt-2"></span> Username</label>
+                    <input type="username" class="form-control" id="usrname" placeholder="Enter username">
+                  </div>
+                  <div class="form-group">
+                    <label for="usrname" class="mt-2">
+                      <span class="glyphicon glyphicon-envelope mt-2"></span> Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="psw" class="mt-2">
+                      <span class="glyphicon glyphicon-eye-open mt-2"></span> Password</label>
+                    <input type="password" class="form-control" id="psw2" placeholder="Enter password">
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="">I agree to the terms</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block" id="signup-button" disabled>
+                    <span class="glyphicon glyphicon-off"></span> Create account</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="filters">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+            <button type="button" class="btn btn-primary btn btn-block text-center">Home</button>
+          </div>
+          <div class="col-xs-6 col-sm-4">
+            <select class="selectpicker btn btn-primary width100" name="">
+              <option class="text-center">Genre</option>
+              <option class="text-center">Science fiction</option>
+              <option class="text-center">Romantic</option>
+              <option class="text-center">Biography</option>
+              <option class="text-center">Horror</option>
+              <option class="text-center">Fantasy</option>
+              <option class="text-center">Comedy</option>
+              <option class="text-center">Action</option>
+              <option class="text-center">Drama</option>
+              <option class="text-center">Adventure</option>
+              <option class="text-center">Suspense</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="text-center">Filter by:</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <select class="selectpicker width100" name="">
+              <option>Year</option>
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+            </select>
+          </div>
+          <div class="col-xs-6">
+            <select class="selectpicker width100" name="">
+              <option>Writer</option>
+              <option>Suzanne Collins</option>
+              <option>Kiera Cass</option>
+              <option>J.K.Rowling</option>
+              <option>Verónica Roth</option>
+              <option>Jane Austen</option>
+              <option>Mark Levi</option>
+              <option>Alice Sebold</option>
+              <option>Otros...</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="http://1.bp.blogspot.com/-loEu1pOpOKc/VLaSZTAYEJI/AAAAAAAAILE/VECEMESu9Cc/s1600/una-imagen-11-portadas-libros-leidos-L-CCtY_E.jpeg" alt=""></a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="https://vignette.wikia.nocookie.net/mazerunner/images/8/85/Insidethemazerunner_cover.jpg/revision/latest?cb=20140626232426" alt=""></a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="https://images-na.ssl-images-amazon.com/images/I/91CEqEsMjBL._RI_SX200_.jpg" alt=""></a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="https://i.ytimg.com/vi/WOUsDY4XVLg/movieposter.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="../js/home-login.js"></script>
+    <script src="../js/vista-home.js"></script>
+  </body>
+</html>
