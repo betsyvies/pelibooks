@@ -1,9 +1,4 @@
 $(document).ready(function() {
-  $('.library-menu').click(function(event) {
-    $(this).toggleClass('active');
-    event.preventDefault();
-  });
-
   $genre = $('#genders');
 
   $genre.on('change', function(event) {
@@ -37,7 +32,7 @@ $(document).ready(function() {
             .catch((err) => {
               console.log(err);
             });
-            
+
         }
       }
     }

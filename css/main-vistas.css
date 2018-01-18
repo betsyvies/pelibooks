@@ -75,6 +75,15 @@ form-bottom{
 }
 .form-bottom p>a{
   padding-left: 10px;
+<<<<<<< HEAD
+}
+#modal-sesion .form{
+  padding: 20px
+}
+div.modal-content{
+    background-color: rgb(205,91,69);
+=======
+>>>>>>> eaa80c707bb544c005d5c2c58cc39636c14b8ddb
 }
 #modal-sesion .form{
   padding: 20px
@@ -82,6 +91,14 @@ form-bottom{
 div.modal-content{
     background-color: rgb(205,91,69);
 }
+/*Estilo para modal registro*/
+.mt-2 {
+  margin-top: 1vh;
+  margin-bottom: 0;
+}
+
+
+
 /*Estilos para vista filtros*/
 img.img-pelis{
   width: 100%;
