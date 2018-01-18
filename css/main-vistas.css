@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Clases reutilizables*/
+.white{
+  color: #FFF;
+}
+.margin-btm-img-pelis{
+  margin-bottom: 2vh;
+}
+body {
+  background-image: url('https://c.pxhere.com/photos/3e/ff/wood_background_deck_wooden_texture_wall_floor_board-1184860.jpg!d'); /*CAPE HONEY*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*ESTILOS PARA VISTA HOME*/
+header nav.navbar.navbar-default{
+  background: linear-gradient( rgb(205,91,69)60%, rgb(205,91,69));
+}
+div.navbar-header{
+  padding: 10px;
+}
+button.navbar-toggle{
+  margin-top: 0;
+  margin-right: 0;
+}
+div.form-group {
+    margin-bottom: 0;
+    outline: none;
+}
+section.filters{
+  margin-bottom: 20px;
+}
+.carousel-inner>.item>img.height-222{
+  width: 100%;
+  height: 322px;
+}
+img.height-350{
+  width: 100%;
+  height: 350px;
+}
+div.width100, select.width100{
+  width: 100%;
+  padding: 10px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(205,91,69,0.8);
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none !important;
+    background-color: rgba(205,91,69,0.8);
+    outline: none;
+}
+img.logo-img{
+  width: 50px;
+}
+/*Estilos para modales*/
+form-bottom{
+  display: table;
+  overflow: auto;
+  margin-left: 20%;
+}
+#modal-sesion div.input-group{
+  padding: 20px 0;
+}
+.form-bottom button{
+  float: right;
+  margin-bottom: 10px;
+}
+.form-bottom p{
+  display: table-footer-group;
+}
+.form-bottom p>a{
+  padding-left: 10px;
+}
+#modal-sesion .form{
+  padding: 20px
+}
+div.modal-content{
+    background-color: rgb(205,91,69);
+}
+/*Estilos para vista filtros*/
+img.img-pelis{
+  width: 100%;
+  height: 45vh;
+}
+div.embed-responsive-16by9 {
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+.font-style{
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  /*Estilos para vista home*/
+  ul.nav li {
+    display: inline-block !important;
+  }
+  img.logo-img{
+    width: 40px;
+  }
+  .navbar-right{
+    margin-right: 0;
+  }
+  .carousel-inner>.item>img.height-222 {
+    width: 100%;
+    height: 510px;
+}
+form.input-header{
+  margin-top: 0.3vh;
+}
+/*Estilos para sección filtros*/
+img.img-pelis {
+    width: 100%;
+    height: 30vh;
+}
+}
+@media (min-width: 992px) {
+  /*Estilos para vista home*/
+  img.img-pelis {
+    width: 100%;
+    height: 40vh;
+}
+}
+@media (min-width: 1200px) {
+  /*Estilos para vista home*/
+  img.img-pelis {
+    width: 100%;
+    height: 55vh;
+}
+}

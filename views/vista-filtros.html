@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2">
     <!-- Mi css -->
     <link rel="stylesheet" type="text/css" href="../css/main-vistas.css">
   </head>
@@ -102,51 +101,21 @@
             <button type="button" class="btn btn-primary btn btn-block text-center">Home</button>
           </div>
           <div class="col-xs-6 col-sm-4">
-            <button id="button-search" type="button" class="btn btn-primary btn btn-block text-center">Busca tu pelicula</button>
+            <select id="genders" class="selectpicker btn btn-primary width100" name="">
+              <option class="text-center">Genre</option>
+              <option class="text-center">Sci-Fi</option>
+              <option class="text-center">Romantic</option>
+              <option class="text-center">Biography</option>
+              <option class="text-center">Horror</option>
+              <option class="text-center">Fantasy</option>
+              <option class="text-center">Comedy</option>
+              <option class="text-center">Action</option>
+              <option class="text-center">Drama</option>
+              <option class="text-center">Adventure</option>
+              <option class="text-center">Suspense</option>
+            </select>
           </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="http://cd.cinescape.com.pe/cinescape-603x336-163427.jpg" alt="..." class="height-222">
-            <div class="carousel-caption">
-              <h3>Find the best movies for non-muggles</h3>
-            </div>
-          </div>
-          <div class="item">
-            <img src="http://s3.amazonaws.com/trendybynick.com-production/wp-content/uploads/2015/11/SINSAJO.jpg" alt="..." class="height-222">
-            <div class="carousel-caption">
-              <h3>Become the Mockingjay</h3>
-            </div>
-          </div>
-          <div class="item">
-            <img src="http://media1.santabanta.com/full1/Hollywood%20Movies/The%20Mortal%20Instruments%20City%20of%20Bones/the-mortal-instruments-city-of-bones-1v.jpg" alt="..." class="height-222">
-            <div class="carousel-caption">
-              <h3>Discover your Shadowhunter side</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </section>
     <hr>
@@ -154,57 +123,64 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
-            <h2 class="text-center font-style">Trailer of the month movie</h2>
+            <h3 class="text-center">Filter by:</h3>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12">
-            <h3 class="text-center font-style">Lovely Bones</h3>
+          <div class="col-xs-6">
+            <select class="selectpicker width100" name="">
+              <option>Year</option>
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+            </select>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/PTZYYtUJpak" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
+          <div class="col-xs-6">
+            <select class="selectpicker width100" name="">
+              <option>Writer</option>
+              <option>Suzanne Collins</option>
+              <option>Kiera Cass</option>
+              <option>J.K.Rowling</option>
+              <option>Verónica Roth</option>
+              <option>Jane Austen</option>
+              <option>Mark Levi</option>
+              <option>Alice Sebold</option>
+              <option>Otros...</option>
+            </select>
           </div>
         </div>
       </div>
     </section>
+    <hr>
     <section>
       <div class="container-fluid">
-        <div class="row">
-         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
-           <div class="thumbnail">
-             <img src="../assets/images/card1.gif" alt="..."class="height-350">
-             <div class="caption">
-               <h3 class="text-center">Join this community reader-cinephile</h3>
-               <p class="text-center">When you log in, you can leave your comment and rate the movies we have for you!</p>
-             </div>
-           </div>
-         </div>
-         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
-           <div class="thumbnail">
-             <img src="https://www.okchicas.com/wp-content/uploads/2015/06/33-razones-de-por-que-eres-mi-mejor-amiga-27.jpg" alt="..." class="height-350">
-             <div class="caption">
-               <h3 class="text-center">Find all your favorite movies here!</h3>
-               <p class="text-center">Without taking you so long. Without those stormy pop-up windows.</p>
-             </div>
-           </div>
-         </div>
-         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
-           <div class="thumbnail">
-             <img src="https://i.pinimg.com/originals/65/78/2b/65782b5257420174a52c7f77b65265bd.jpg" alt="..." class="height-350">
-             <div class="caption">
-               <h3 class="text-center">Do not forget that reading is the best.</h3>
-               <p class="text-center">If watching a movie is a wonderful experience, imagine reading a book!</p>
-             </div>
-           </div>
-         </div>
-       </div>
+        <div id="container-film" class="row">
+          <!-- <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="http://1.bp.blogspot.com/-loEu1pOpOKc/VLaSZTAYEJI/AAAAAAAAILE/VECEMESu9Cc/s1600/una-imagen-11-portadas-libros-leidos-L-CCtY_E.jpeg" alt=""></a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="https://vignette.wikia.nocookie.net/mazerunner/images/8/85/Insidethemazerunner_cover.jpg/revision/latest?cb=20140626232426" alt=""></a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="https://images-na.ssl-images-amazon.com/images/I/91CEqEsMjBL._RI_SX200_.jpg" alt=""></a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
+            <a href="#"><img  class="img-responsive img-pelis" src="https://i.ytimg.com/vi/WOUsDY4XVLg/movieposter.jpg" alt=""></a>
+          </div> -->
+        </div>
       </div>
     </section>
+
     <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="../js/vista-home.js"></script>
+    <script type="text/javascript" src="../js/data.js"></script>
+    <script type="text/javascript" src="../js/vista-filtros.js"></script>
   </body>
 </html>
