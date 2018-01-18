@@ -1,14 +1,1759 @@
 var data = {
-  'Sci-Fi': ['The Hunger Games', 'Never Let Me Go', 'The Host', 'The Hunger Games: Mockingjay - Part 2', 'The Hunger Games: Mockingjay - Part 1', 'Incarceron', 'Children of Men', 'I Am Legend', 'The Time Traveler is Wife', 'The Golden Compass', 'The Hunger Games: Catching Fire', 'A Clockwork Orange'],
-  'Romantic': ['Rifles', 'Fifty Shades of Grey','Great Expectations', 'Serpent Gir', 'Never Let Me Go', 'Få meg på, for faen', 'Submarine', 'The Host', 'The Twilight Saga: Breaking Dawn - Part 1', 'The Twilight Saga: Breaking Dawn - Part 2', 'One for the Money', 'Wicked Lovely', 'The Little Mermaid', 'The Forest of Hands and Teeth', 'Shiver', 'If I Stay', 'Fallen', 'Delirium', 'Beautiful Creatures', 'Beastly', 'A Great and Terrible Beauty', 'Rock of Ages', 'The Sisterhood of the Traveling Pants 2', 'The Sisterhood of the Traveling Pants', 'Brokeback Mountain', 'Walk the Line', 'In Her Shoes', 'Peaceful Warrior', 'The Painted Veil', 'Snow Angels', 'Jane Eyre', 'The Nanny Diaries', 'Silk', 'The Great Debaters', 'P.S. I Love You', 'Miss Pettigrew Lives for a Day', 'Mamma Mia!', 'The Duchess', 'The Curious Case of Benjamin Button', 'Revolutionary Road', 'Confessions of a Shopaholic', 'The Last Station', 'Up in the Air', 'Crazy Heart', 'A Single Man', 'Tamara Drewe', 'Jane Eyre', 'Water for Elephants', 'Atonement', 'Appaloosa', 'Wuthering Heights', 'The Time Traveler is Wife', 'Stardust', 'Persuasion', 'Emma', 'Northanger Abbey', 'Sense and Sensibility', 'Pride & Prejudice', 'The Twilight Saga: Eclipse', 'The Twilight Saga: New Moon', 'Twilight', 'Forrest Gump', 'One Day', 'Nights in Rodanthe', 'The Notebook', 'The Last Song', 'Dear John', 'The Lucky One', 'Message in a Bottle', 'All the Pretty Horses', 'All That Heaven Allows', 'About a Boy', 'A Walk to Remember', 'A Room with a View', 'A Good Year', 'A Little Romance'],
-  'Biography': ['Hours', 'Walk the Line', 'The Greatest Game Ever Played', 'Glory Road', 'The Last King of Scotland', 'The Pursuit of Happyness', 'Freedom Writers', 'Into the Wild', 'The Assassination of Jesse James by the Coward Robert Ford', 'Charlie Wilson is War', 'The Great Debaters', 'The Duchess', 'The Express', 'Public Enemies', 'The Soloist', 'The Last Station', 'The Blind Side', 'The Runaways', 'The Social Network', 'Secretariat', 'A Beautiful Mind', 'Awakenings'],
-  'Horror': ['The Mist', 'I Am Legend', 'It', 'Vampire Academy'],
-  'Fantasy': ['Twilight', 'Life of Pi', 'Serpent Gir', 'The Twilight Saga: Breaking Dawn - Part 1', 'The Twilight Saga: Breaking Dawn - Part 2', 'The Chronicles of Narnia: The Silver Chair', 'The Chronicles of Narnia: The Magician is Nephew', 'Paranormalcy', 'Wicked Lovely', 'Vampire Academy', 'The Looking Glass Wars', 'The Little Mermaid', 'Shiver', 'Incarceron', 'If I Stay', 'Firelight', 'Fallen', 'Delirium', 'Beautiful Creatures', 'Beastly', 'Wings', 'A Great and Terrible Beauty', 'The Woman in Black', 'The Spiderwick Chronicles', 'Nim is Island', 'Inkheart', 'The Time Traveler is Wife', 'The Lovely Bones', 'The Lord of the Rings: The Two Towers', 'The Lord of the Rings: The Return of the King', 'The Lord of the Rings: The Fellowship of the Ring', 'The Hobbit: An Unexpected Journey', 'The Chronicles of Narnia: The Voyage of the Dawn Tread', 'The Chronicles of Narnia: Prince Caspian', 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe', 'Stardust', 'Percy Jackson: Sea of Monsters', 'Percy Jackson & the Olympians: The Lightning Thief', 'The Twilight Saga: Eclipse', 'The Twilight Saga: New Moon', 'Harry Potter and the Deathly Hallows: Part 1', 'Harry Potter and the Half-Blood Prince', 'Harry Potter and the Order of the Phoenix', 'Harry Potter and the Prisoner of Azkaban', 'Harry Potter and the Deathly Hallows: Part 2', 'Harry Potter and the Goblet of Fire', 'Harry Potter and the Sorcerer is Stone', 'Harry Potter and the Chamber of Secrets'],
-  'Comedy': ['A Good Year', 'Få meg på, for faen', 'Submarine', 'Barney is Version', 'One for the Money', 'Vampire Academy', 'Rock of Ages', 'Mean Girls', 'The Sisterhood of the Traveling Pants 2', 'The Sisterhood of the Traveling Pants', 'In Her Shoes', 'The Devil Wears Prada', 'The Nanny Diaries', 'Charlie Wilson is War', 'Miss Pettigrew Lives for a Day', 'Nim is Island', 'Mamma Mia!', 'The Women', 'Confessions of a Shopaholic', 'Tamara Drewe', 'Mansfield Park', 'A Little Romance', 'About a Boy'],
-  'Action': ['Rifles', 'Tom Sawyer & Huckleberry Finn', 'The Host', 'The Hunger Games: Mockingjay - Part 2', 'The Hunger Games: Mockingjay - Part 1', 'The Chronicles of Narnia: The Magician is Nephew', 'One for the Money', 'Vampire Academy', 'Jack Reacher', 'Friday Night Lights', 'Poseidon', 'Green Zone', 'The Chronicles of Narnia: Prince Caspian', 'The Green Mile', 'Luftslottet som sprängdes', 'Dear John', 'All the Pretty Horses', 'The Hunger Games: Catching Fire', 'A Clockwork Orange'],
-  'Drama': ['Hours', 'Fifty Shades of Grey', 'Life of Pi', 'Great Expectations', 'Never Let Me Go', 'Island', 'Tom Sawyer & Huckleberry Finn', 'Simon och ekarna', 'Gomorra', 'Oranges and Sunshine', 'Submarine', 'Barney is Version', 'The Way Back', 'The Twilight Saga: Breaking Dawn - Part 1', 'The Twilight Saga: Breaking Dawn - Part 2', 'The Forest of Hands and Teeth', 'Incarceron', 'If I Stay', 'Society', 'Fallen', 'Beautiful Creatures', 'Beastly', 'Wings', 'A Great and Terrible Beauty', 'The Woman in Black', 'Rock of Ages', 'Lawless', 'Mean Moms', 'Friday Night Lights', 'Vanity Fair', 'Million Dollar Baby', 'The Magic of Ordinary Days', 'The Sisterhood of the Traveling Pants 2', 'Brokeback Mountain', 'In Her Shoes', 'The Greatest Game Ever Played', 'Glory Road', 'Poseidon', 'Peaceful Warrior', 'The Devil Wears Prada', 'The Last King of Scotland', 'Love is Abiding Joy', '10', 'The Pursuit of Happyness', 'The Painted Veil', 'Children of Men', 'Freedom Writers', 'Snow Angels', 'Jane Eyre', 'Zodiac', 'Saving Sarah Cain', 'The Nanny Diaries', 'Into the Wild', 'Silk', 'The Assassination of Jesse James by the Coward Robert Ford', 'No Country for Old Men', 'Gone Baby Gone', 'Charlie Wilson is War', 'The Great Debaters', 'I Am Legend', 'Love is Unfolding Dream', 'P.S. I Love You', 'Nothing Is Private', 'The Women', '21', 'The Duchess', 'The Express', 'The Secret Life of Bees', 'The Boy in the Striped Pyjamas', 'The Curious Case of Benjamin Button', 'Revolutionary Road', 'Public Enemies', 'Like Dandelion Dust', 'The Soloist', 'The Last Station', 'Up in the Air', 'Crazy Heart', 'A Single Man', 'The Blind Side', 'Winter is Bone', 'The Runaways', 'The Ghost Writer', 'Green Zone', 'Tamara Drewe', 'The Town', 'The Social Network', 'Secretariat', 'Jane Eyre', 'The Lincoln Lawyer', 'Water for Elephants', 'Ballet Shoes', 'Awakenings', 'Atonement', 'Appaloosa', 'We Need to Talk About Kevin', 'Wuthering Heights', 'The Time Traveler is Wife', 'Misery', 'Stand by Me', 'The Shawshank Redemption', 'The Pelican Brief', 'The Lovely Bones', 'The Lord of the Rings: The Two Towers', 'The Lord of the Rings: The Return of the King', 'The Lord of the Rings: The Fellowship of the Ring', 'Emma', 'Persuasion', 'Screen Two: Persuasion', 'Northanger Abbey', 'Mansfield Park', 'Sense and Sensibility', 'Pride & Prejudice', 'The Twilight Saga: Eclipse', 'The Twilight Saga: New Moon', 'Twilight', 'My Sister is Keeper', 'Lord of the Flie', 'Forrest Gump', 'One Day', 'Extremely Loud & Incredibly Clos', 'The Help', 'The Green Mile', 'Luftslottet som sprängdes', 'Ondskan', 'Flickan som lekte med elden', 'Män som hatar kvinnor', 'The Girl with the Dragon Tattoo', 'Nights in Rodanthe', 'The Notebook', 'The Last Song', 'Dear John', 'The Lucky One', 'Message in a Bottle', 'All the Pretty Horses', 'All That Heaven Allows', 'About a Boy', 'A Walk to Remember', 'A Room with a View', 'A Beautiful Mind', 'A Civil Action', 'A Clockwork Orange', 'A Good Year'],
-  'Adventure': ['Hours', 'Life of Pi', 'Tom Sawyer & Huckleberry Finn', 'The Way Back', 'The Host', 'The Twilight Saga: Breaking Dawn - Part 1', 'The Twilight Saga: Breaking Dawn - Part 2', 'The Hunger Games: Mockingjay - Part 2', 'The Hunger Games: Mockingjay - Part 1', 'The Chronicles of Narnia: The Silver Chair', 'The Chronicles of Narnia: The Magician is Nephew', 'Paranormalcy', 'The Little Mermaid', 'Fallen', 'Delirium', 'Rise of the Guardians', 'Walk the Line', 'Poseidon', '10', 'Into the Wild', 'The Spiderwick Chronicles', 'Nim is Island', 'Inkheart', 'Stand by Me', 'The Lord of the Rings: The Two Towers', 'The Lord of the Rings: The Return of the King', 'The Lord of the Rings: The Fellowship of the Ring', 'The Hobbit: An Unexpected Journey', 'The Chronicles of Narnia: The Voyage of the Dawn Tread', 'The Chronicles of Narnia: Prince Caspian', 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe', 'Stardust', 'Percy Jackson: Sea of Monsters', 'Percy Jackson & the Olympians: The Lightning Thief', 'The Twilight Saga: Eclipse', 'The Twilight Saga: New Moon', 'Lord of the Flie', 'Extremely Loud & Incredibly Clos', 'Harry Potter and the Half-Blood Prince', 'Harry Potter and the Deathly Hallows: Part 1', 'Harry Potter and the Order of the Phoenix', 'Harry Potter and the Deathly Hallows: Part 2', 'Harry Potter and the Prisoner of Azkaban', 'Harry Potter and the Goblet of Fire', 'Harry Potter and the Chamber of Secrets', 'Harry Potter and the Sorcerer is Stone', 'The Golden Compass', 'A Little Romance', 'Rifles', 'The Hunger Games', 'The Hunger Games: Catching Fire'],
-  'Suspense': ['Hours', 'Fifty Shades of Grey', 'Wake', 'The Host', 'The Hunger Games: Mockingjay - Part 2', 'The Hunger Games: Mockingjay - Part 1', 'One for the Money', 'The Forest of Hands and Teeth', 'Shiver', 'The Woman in Black', 'Rise of the Guardians', 'Jack Reacher', 'The Last King of Scotland', 'Zodiac', 'No Country for Old Men', 'Gone Baby Gone', 'I Am Legend', '21', 'The Ghost Writer', 'Shutter Island', 'Green Zone', 'The Town', 'The Lincoln Lawyer', 'We Need to Talk About Kevin', 'Misery', 'The Mist', 'The Pelican Brief', 'The Lovely Bones', 'Percy Jackson: Sea of Monsters', 'Lord of the Flie', 'Extremely Loud & Incredibly Clos', 'The Green Mile', 'Luftslottet som sprängdes', 'Flickan som lekte med elden', 'Män som hatar kvinnor', 'The Girl with the Dragon Tattoo', 'The Da Vinci Code', 'Angels & Demons', 'The Hunger Games', 'The Hunger Games: Catching Fire']
+  'Sci-Fi': {
+    'Suzanne Collins': {
+      'película': 'The Hunger Games',
+      'año' : '2012',
+    },
+    'escritor': {
+      'película': 'Never Let Me Go',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Host',
+      'año' : '',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 2',
+      'año' : '',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 1',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Incarceron',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Children of Men',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'I Am Legend',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Time Traveler is Wife',
+      'año' : '',
+    },
+    'Philip Pullman': {
+      'película': 'The Golden Compass',
+      'año' : '2007',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Catching Fire',
+      'año' : '2013',
+    },
+    'Anthony Burgess': {
+      'película': 'A Clockwork Orange',
+      'año' : '1971',
+  },
+  'Romantic': {
+    'Robert MacLeods': {
+      'película': '100 Rifles',
+      'año' : '1969',
+    },
+    'escritor': {
+      'película': 'Fifty Shades of Grey',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Great Expectations',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Serpent Gir',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Never Let Me Go',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Få meg på, for faen',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Submarine',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Host',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 1',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 2',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'One for the Money',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Wicked Lovely',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Little Mermaid',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Forest of Hands and Teeth',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Shiver',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Fallen',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Delirium',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Beautiful Creatures',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Beastly',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'A Great and Terrible Beauty',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Rock of Ages',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Sisterhood of the Traveling Pants 2',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Sisterhood of the Traveling Pants',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Brokeback Mountain',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Walk the Line',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'In Her Shoes',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Peaceful Warrior',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Painted Veil',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Snow Angels',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Jane Eyre',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Nanny Diaries',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Silk',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Great Debaters',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'P.S. I Love You',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Mamma Mia!',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Duchess',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Curious Case of Benjamin Button',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Revolutionary Road',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Confessions of a Shopaholic',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Last Station',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Up in the Air',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Crazy Heart',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'A Single Man',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Tamara Drewe',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Jane Eyre',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Water for Elephants',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Atonement',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Appaloosa',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Wuthering Heights',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Time Traveler is Wife',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Stardust',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Persuasion',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Emma',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Northanger Abbey',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Sense and Sensibility',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Pride & Prejudice',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Eclipse',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: New Moon',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Twilight',
+      'año' : '',
+    },
+    'Winston Groom': {
+      'película': 'Forrest Gump',
+      'año' : '1994',
+    },
+    'David Nicholls': {
+      'película': 'One Day',
+      'año' : '2011',
+    },
+    'Nicholas Sparks': {
+      'película':  'Nights in Rodanthe',
+      'año' : '2008',
+    },
+    'Nicholas Sparks,': {
+      'película':  'The Notebook',
+      'año' : '2004',
+    },
+    'Nicholas Sparks': {
+      'película':  'The Last Song',
+      'año' : '2010',
+    },
+    'Nicholas Sparks': {
+      'película':  'Dear John',
+      'año' : '2010',
+    },
+    'Nicholas Sparks': {
+      'película': 'The Lucky One',
+      'año' : '2012'
+    },
+    'Nicholas Sparks': {
+      'película': 'Message in a Bottle',
+      'año' : '1999',
+    },
+    'Cormac McCarthy': {
+      'película':  'All the Pretty Horses', 
+      'año' : '2000',
+    },
+    'Edna Lee & Harry Lee': {
+      'película': 'All That Heaven Allows',
+      'año' : '1955',
+    },
+    'Nick Hornby': {
+      'película': 'About a Boy',
+      'año' : '2002',
+    },
+    'Nicholas Sparks': {
+      'película': 'A Walk to Remember',
+      'año' : '2002',
+    },
+    'E.M. Forster.': {
+      'película': 'A Room with a View',
+      'año' : '1985',
+    },
+    'Peter Mayl': {
+      'película': 'A Good Year',
+      'año' : '2006',
+    },
+    'Patrick Cauvin': {
+      'película': 'A Little Romance',
+      'año' : '1979',
+    },
+  },
+  'Biography':{
+    'Danny Boyle y Simon Beaufoy': {
+      'película': '127 Hours',
+      'año' : '2010',
+    },
+    'escritor': {
+      'película': 'Walk the Line',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Greatest Game Ever Played',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Glory Road',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Last King of Scotland',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Pursuit of Happyness',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Freedom Writers',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Into the Wild',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Assassination of Jesse James by the Coward Robert Ford',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Charlie Wilson is War',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Great Debaters',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Duchess',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Express', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Public Enemies', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Soloist', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Last Station', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Blind Side', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Runaways', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Social Network', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Secretariat', 
+      'año' : '',
+    },
+    'Sylvia Nasar': {
+      'película': 'A Beautiful Mind',
+      'año' : '2001',
+    },
+    'escritor': {
+      'película': 'Awakenings', 
+      'año' : '',
+    },
+  },
+  'Horror': {
+    'escritor': {
+      'película': 'The Mist', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'I Am Legend', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'It', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Vampire Academy', 
+      'año' : '',
+    },
+
+  },
+  'Fantasy': {
+    'escritor': {
+      'película': 'Twilight',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Life of Pi',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Serpent Gir',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 1',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 2',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Silver Chair',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Magician is Nephew',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Paranormalcy',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Wicked Lovely',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Vampire Academy',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Looking Glass Wars',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Little Mermaid',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Shiver',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Incarceron',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'If I Stay',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Firelight',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Fallen',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Delirium',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Beautiful Creatures',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Beastly',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Wings',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'A Great and Terrible Beauty',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Woman in Black',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Spiderwick Chronicles',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Nim is Island',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Inkheart',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Time Traveler is Wife',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lovely Bones',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Two Towers',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Return of the King',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Fellowship of the Ring',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Hobbit: An Unexpected Journey',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Voyage of the Dawn Tread',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: Prince Caspian',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Stardust',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Percy Jackson: Sea of Monsters',
+      'año' : '',
+    },
+    'escritor': {
+      'película':  'Percy Jackson & the Olympians: The Lightning Thief',
+      'año' : '',
+    },
+    'escritor': {
+      'película':  'The Twilight Saga: Eclipse',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: New Moon',
+      'año' : '',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Deathly Hallows: Part 1',
+      'año' : '2010',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Half-Blood Prince',
+      'año' : '2009',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Order of the Phoenix',
+      'año' : '2007',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Prisoner of Azkaban',
+      'año' : '2004',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Deathly Hallows: Part 2',
+      'año' : '2011',
+    },
+    'escritor': {
+      'película':  'Harry Potter and the Goblet of Fire',
+      'año' : '',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Sorcerer is Stone',
+      'año' : '2001',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Chamber of Secrets',
+      'año' : '2002',
+    },
+  },
+  'Comedy': {
+    'Peter Mayl': {
+      'película': 'A Good Year',
+      'año' : '2006',
+    },
+    'escritor': {
+      'película': 'Få meg på, for faen',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Submarine',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Barney is Version',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'One for the Money',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Vampire Academy',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Rock of Ages',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Mean Girls',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Sisterhood of the Traveling Pants 2',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Sisterhood of the Traveling Pants',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'In Her Shoes',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Devil Wears Prada',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Nanny Diaries',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Charlie Wilson is War',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Miss Pettigrew Lives for a Day',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Nim is Island',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Mamma Mia!',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Women',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Confessions of a Shopaholic',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Tamara Drewe',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Mansfield Park',
+      'año' : '',
+    },
+    'Patrick Cauvin': {
+      'película': 'A Little Romance',
+      'año' : '1979',
+    },
+    'Nick Hornby': {
+      'película': 'About a Boy',
+      'año' : '2002',
+    },
+  }, 
+  'Action': {
+    'Robert MacLeods': {
+      'película': '100 Rifles',
+      'año' : '1969',
+    },
+    'escritor': {
+      'película': 'Tom Sawyer & Huckleberry Finn',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Host',
+      'año' : '',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 2',
+      'año' : '',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 1',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Magician is Nephew',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'One for the Money',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Vampire Academy',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Jack Reacher',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Friday Night Lights',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Poseidon',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Green Zone',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: Prince Caspian',
+      'año' : '',
+    },
+    'Stephen King': {
+      'película': 'The Green Mile',
+      'año' : '1999',
+    },
+    'Stieg Larsson': {
+      'película': 'Luftslottet som sprängdes',
+      'año' : '2009',
+    },
+    'Nicholas Sparks': {
+      'película': 'Dear John',
+      'año' : '2010',
+    },
+    'Cormac McCarthy': {
+      'película': 'All the Pretty Horses',
+      'año' : '2000',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Catching Fire',
+      'año' : '2013',
+    },
+    'Anthony Burgess': {
+      'película': 'A Clockwork Orange',
+      'año' : '1971',
+    },
+  },
+  'Drama': {
+    'Danny Boyle y Simon Beaufoy': {
+      'película': '127 Hours',
+      'año' : '2010',
+    },
+    'escritor': {
+      'película': 'Fifty Shades of Grey',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Life of Pi',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Great Expectations',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Never Let Me Go',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Island',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Tom Sawyer & Huckleberry Finn',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Simon och ekarna',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Gomorra',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Oranges and Sunshine',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Submarine',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Barney is Version',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Way Back',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 1',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 2',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Forest of Hands and Teeth',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Incarceron',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'If I Stay',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Society',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Fallen',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Beautiful Creatures',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Beastly',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Wings',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'A Great and Terrible Beauty',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Woman in Black',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Rock of Ages',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Lawless',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Mean Moms',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Friday Night Lights',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Vanity Fair',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Million Dollar Baby',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Magic of Ordinary Days',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Sisterhood of the Traveling Pants 2',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Brokeback Mountain',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'In Her Shoes',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Greatest Game Ever Played',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Glory Road',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Poseidon',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Peaceful Warrior',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Devil Wears Prada',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Last King of Scotland',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Love is Abiding Joy',
+      'año' : '',
+    },
+    'escritor': {
+      'película': '10',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Pursuit of Happyness',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Painted Veil',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Children of Men',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Freedom Writers',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Snow Angels', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Jane Eyre',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Zodiac',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Saving Sarah Cain',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Nanny Diaries',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Into the Wild',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Silk',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Assassination of Jesse James by the Coward Robert Ford',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'No Country for Old Men',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Gone Baby Gone',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Charlie Wilson is War',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Great Debaters',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'I Am Legend',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Love is Unfolding Dream',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'P.S. I Love You',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Nothing Is Private',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Women',
+      'año' : '',
+    },
+    'escritor': {
+      'película': '21',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Duchess',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Express',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Secret Life of Bees',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Boy in the Striped Pyjamas',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Curious Case of Benjamin Button',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Revolutionary Road',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Public Enemies',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Like Dandelion Dust',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Soloist',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Last Station',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Up in the Air',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Crazy Heart',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'A Single Man',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Blind Side',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Winter is Bone',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Runaways',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Ghost Writer',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Green Zone',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Tamara Drewe',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Town',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Social Network',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Secretariat',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Jane Eyre',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lincoln Lawyer',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Water for Elephants',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Ballet Shoes',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Awakenings',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Atonement',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Appaloosa',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'We Need to Talk About Kevin',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Wuthering Heights',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Time Traveler is Wife',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Misery',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Stand by Me',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Shawshank Redemption',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Pelican Brief',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lovely Bones', 
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Two Towers',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Return of the King',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Fellowship of the Ring',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Emma',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Persuasion',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Screen Two: Persuasion',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Northanger Abbey',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Mansfield Park',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Sense and Sensibility',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Pride & Prejudice',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Eclipse',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: New Moon',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Twilight',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'My Sister is Keeper',
+      'año' : '',
+    },
+    'William Golding': {
+      'película': 'Lord of the Flie',
+      'año' : '1990',
+    },
+    'Winston Groom': {
+      'película': 'Forrest Gump',
+      'año' : '1994',
+    },
+    'David Nicholls': {
+      'película': 'One Day',
+      'año' : '2011',
+    },
+    'Jonathan Safran Foer': {
+      'película': 'Extremely Loud & Incredibly Close',
+      'año' : '2011',
+    },
+    'Kathryn Stockett': {
+      'película': 'The Help',
+      'año' : '2011',
+    },
+    'Stephen King': {
+      'película': 'The Green Mile',
+      'año' : '1999',
+    },
+    'Stieg Larsson': {
+      'película': 'Luftslottet som sprängdes',
+      'año' : '2009',
+    },
+    'Jan Guillou': {
+      'película': 'Ondskan',
+      'año' : '2003',
+    },
+    'Stieg Larsson': {
+      'película': 'Flickan som lekte med elden',
+      'año' : '2009',
+    },
+    'Stieg Larsson': {
+      'película': 'Män som hatar kvinnor',
+      'año' : '2009',
+    },
+    'Stieg Larsson': {
+      'película': 'The Girl with the Dragon Tattoo',
+      'año' : '2011',
+    },
+    'Nicholas Sparks': {
+      'película': 'Nights in Rodanthe',
+      'año' : '2008',
+    },
+    'Nicholas Sparks': {
+      'película': 'The Notebook',
+      'año' : '2004',
+    },
+    'Nicholas Sparks': {
+      'película': 'The Last Song',
+      'año' : '2010',
+    },
+    'Nicholas Sparks': {
+      'película': 'Dear John',
+      'año' : '2010',
+    },
+    'Nicholas Sparks': {
+      'película': 'The Lucky One',
+      'año' : '2012',
+    },
+    'Nicholas Sparks': {
+      'película': 'Message in a Bottle',
+      'año' : '1999',
+    },
+    'Cormac McCarthy': {
+      'película': 'All the Pretty Horses',
+      'año' : '2000',
+    },
+    'Edna Lee & Harry Lee': {
+      'película': 'All That Heaven Allows',
+      'año' : '1955',
+    },
+    'Nick Hornby': {
+      'película': 'About a Boy',
+      'año' : '2002',
+    },
+    'Nicholas Sparks': {
+      'película': 'A Walk to Remember',
+      'año' : '2002',
+    },
+    'E.M. Forster.': {
+      'película': 'A Room with a View',
+      'año' : '1985',
+    },
+    'Sylvia Nasar': {
+      'película': 'A Beautiful Mind',
+      'año' : '2001,
+    },
+    'Jonathan Harr': {
+      'película': 'A Civil Action',
+      'año' : '1998',
+    },
+    'Anthony Burgess': {
+      'película': 'A Clockwork Orange',
+      'año' : '1971',
+    },
+    'Peter Mayl': {
+      'película': 'A Good Year',
+      'año' : '2006',
+    },
+  },
+  'Adventure': {
+    'Danny Boyle y Simon Beaufoy': {
+      'película': '127 Hours',
+      'año' : '2010',
+    },
+    'escritor': {
+      'película': 'Life of Pi',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Tom Sawyer & Huckleberry Finn',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Way Back',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Host',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 1',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: Breaking Dawn - Part 2',
+      'año' : '',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 2',
+      'año' : '',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 1',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Silver Chair',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Magician is Nephew',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Paranormalcy',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Little Mermaid',
+      'año' : '',
+    }, 'escritor': {
+      'película': 'Fallen',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Delirium',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Rise of the Guardians',
+      'año' : '',
+    }, 
+      'escritor': {
+      'película': 'Walk the Line',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Poseidon',
+      'año' : '',
+    },
+    'escritor': {
+      'película': '10',
+      'año' : '',
+    }, 
+      'escritor': {
+      'película': 'Into the Wild',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Spiderwick Chronicles',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Nim is Island',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Inkheart',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Stand by Me',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Two Towers',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'The Lord of the Rings: The Return of the King',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lord of the Rings: The Fellowship of the Ring',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Hobbit: An Unexpected Journey',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Voyage of the Dawn Tread',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: Prince Caspian',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'Stardust',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Percy Jackson: Sea of Monsters',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Percy Jackson & the Olympians: The Lightning Thief',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'The Twilight Saga: Eclipse',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Twilight Saga: New Moon',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Lord of the Flie',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'Extremely Loud & Incredibly Clos',
+      'año' : '',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Half-Blood Prince',
+      'año' : '2009',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Deathly Hallows: Part 1',
+      'año' : '2010',
+    }, 
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Order of the Phoenix',
+      'año' : '2007',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Deathly Hallows: Part 2',
+      'año' : '2011',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Prisoner of Azkaban',
+      'año' : '2004',
+    }, 
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Goblet of Fire',
+      'año' : '2005',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Chamber of Secrets',
+      'año' : '2002',
+    },
+    'J. K. Rowling': {
+      'película': 'Harry Potter and the Sorcerer is Stone',
+      'año' : '2001',
+    }, 
+    'Philip Pullman': {
+      'película': 'The Golden Compass',
+      'año' : '2007',
+    },
+    'Patrick Cauvin': {
+      'película': 'A Little Romance',
+      'año' : '1979',
+    },
+    'escritor': {
+      'película': 'Rifles',
+      'año' : '',
+    }, 
+    'Suzanne Collins': {
+      'película': 'The Hunger Games',
+      'año' : '2012',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Catching Fire',
+      'año' : '2013',
+    },
+  }, 
+  'Suspense': {
+    'Danny Boyle y Simon Beaufoy': {
+      'película': '127 Hours',
+      'año' : '2010',
+    },
+    'escritor': {
+      'película': 'Fifty Shades of Grey',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Wake',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Host',
+      'año' : '',
+    }, 
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 2',
+      'año' : '',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Mockingjay - Part 1', 'One for the Money',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Forest of Hands and Teeth',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Shiver',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Woman in Black',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Rise of the Guardians',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Jack Reacher',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Last King of Scotland',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Zodiac',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'No Country for Old Men',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Gone Baby Gone',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'I Am Legend',
+      'año' : '',
+    },
+    'escritor': {
+      'película': '21',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Ghost Writer',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Shutter Island',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'Green Zone',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Town',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lincoln Lawyer',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'We Need to Talk About Kevin',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Misery',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Mist',
+      'año' : '',
+    }, 
+    'escritor': {
+      'película': 'The Pelican Brief',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'The Lovely Bones',
+      'año' : '',
+    },
+    'escritor': {
+      'película': 'Percy Jackson: Sea of Monsters',
+      'año' : '',
+    },
+    'escritor': {
+      'película':  'Lord of the Flie',
+      'año' : '',
+    },
+    'escritor': {
+      'película':  'Extremely Loud & Incredibly Clos',
+      'año' : '',
+    },
+    'Stephen King': {
+      'película': 'The Green Mile',
+      'año' : '1999',
+    },
+    'Stieg Larsson': {
+      'película': 'Luftslottet som sprängdes',
+      'año' : '2009',
+    },
+    'Stieg Larsson': {
+      'película': 'Flickan som lekte med elden',
+      'año' : '2009',
+    },
+    'Stieg Larsson': {
+      'película': 'Män som hatar kvinnor',
+      'año' : '2009',
+    },
+    'Stieg Larsson': {
+      'película': 'The Girl with the Dragon Tattoo',
+      'año' : '2011',
+    },
+    'Dan Brown': {
+      'película': 'The Da Vinci Code',
+      'año' : '2006',
+    },
+    'Dan Brown': {
+      'película': 'Angels & Demons',
+      'año' : '2009',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games',
+      'año' : '2012',
+    },
+    'Suzanne Collins': {
+      'película': 'The Hunger Games: Catching Fire',
+      'año' : '2013',
+    },
+  }, 
 };
 
 // keys = Object.keys(data);

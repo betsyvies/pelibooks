@@ -4,3 +4,4 @@ $(document).ready(function() {
     window.location.assign('vista-home.html');
   }, 3000);
 });
+

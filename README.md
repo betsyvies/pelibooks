@@ -53,6 +53,21 @@
    + Maquetado y funcionalidad de las diferentes vistas.
    Tiempo utilizado: 4 hrs.
 
+ **JUEVES: 17/01/2017**
+
+**Planificación, Organización y Ejecución**
+1. Feedback de los pendientes del día anterior.
+   + Verificación del maquetado según tipo de vista.
+   + Verificación de la funcionalidad según tipo de vista.
+   Herramientas utilizadas: Trello.
+   Tiempo utilizado: 1/2 hr.
+   
+![imagen](assets/images/trello.png)
+
+2. **Prototipado con correcciones**
+   + Maquetado y funcionalidad de las diferentes vistas.
+   Tiempo utilizado: 4 hrs.
+
 ## Herramientas Utilizadas
 
 - Html, para la estructura del contenido.
