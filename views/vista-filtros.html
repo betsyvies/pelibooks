@@ -15,10 +15,10 @@
     <!-- Mi css -->
     <link rel="stylesheet" type="text/css" href="../css/main-vistas.css">
   </head>
-  <body>
+  <body id="view-filters" class="fade-in">
     <!--Header-->
     <header>
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="row">
             <div class="navbar-header">
@@ -98,7 +98,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-6 col-sm-4 col-sm-offset-2">
-            <button type="button" class="btn btn-primary btn btn-block text-center">Home</button>
+            <button id="button-home-view-f" type="button" class="btn btn-primary btn btn-block text-center padding-9">Home</button>
           </div>
           <div class="col-xs-6 col-sm-4">
             <select class="selectpicker btn btn-primary width100" name="">
@@ -123,7 +123,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
-            <h3 class="text-center">Filter by:</h3>
+            <h3 class="text-center font-style">Filter by:</h3>
           </div>
         </div>
         <div class="row">
@@ -179,5 +179,6 @@
 
     <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/transition.js"></script>
   </body>
 </html>

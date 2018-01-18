@@ -16,10 +16,10 @@
     <!-- Mi css -->
     <link rel="stylesheet" type="text/css" href="../css/main-vistas.css">
   </head>
-  <body>
+  <body id="view-home" class="fade-in">
     <!--Header-->
     <header>
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="row">
             <div class="navbar-header">
@@ -99,22 +99,10 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-6 col-sm-4 col-sm-offset-2">
-            <button type="button" class="btn btn-primary btn btn-block text-center">Home</button>
+            <button id="button-home-view-h" type="button" class="btn btn-primary btn btn-block text-center padding-9">Home</button>
           </div>
           <div class="col-xs-6 col-sm-4">
-            <select class="selectpicker btn btn-primary width100" name="">
-              <option class="text-center">Genre</option>
-              <option class="text-center">Science fiction</option>
-              <option class="text-center">Romantic</option>
-              <option class="text-center">Biography</option>
-              <option class="text-center">Horror</option>
-              <option class="text-center">Fantasy</option>
-              <option class="text-center">Comedy</option>
-              <option class="text-center">Action</option>
-              <option class="text-center">Drama</option>
-              <option class="text-center">Adventure</option>
-              <option class="text-center">Suspense</option>
-            </select>
+            <button id="button-find-movie-view-h" type="button" class="btn btn-primary btn btn-block text-center">Find your movie</button>
           </div>
         </div>
       </div>
@@ -175,12 +163,13 @@
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/PTZYYtUJpak" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PTZYYtUJpak" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <hr>
     <section>
       <div class="container-fluid">
         <div class="row">
@@ -216,5 +205,6 @@
     </section>
     <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/transition.js"></script>
   </body>
 </html>

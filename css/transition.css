@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page-transition {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	opacity: 0;
+}
+.fade-in{
+  animation: fadeIn 24s;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
