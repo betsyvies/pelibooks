@@ -9,6 +9,7 @@ $(document).ready(function () {
   var validatePasswordLogin = false;
 
   // llamamos a los valores guardados en el localStorage
+  console.log(localStorage.name);
   console.log(localStorage.email);
   console.log(localStorage.password);
 
@@ -37,3 +38,7 @@ $(document).ready(function () {
 
   });
 });
+
+
+
+

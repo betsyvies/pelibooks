@@ -3,11 +3,19 @@ $(document).ready(function () {
     $(this).toggleClass('active');
     event.preventDefault();
   });
+
+  // funcionalidad user
+  $('#login-button').click(function () {
+    $('#user').append('<p><strong>texto de prueba</strong></p>');
+  })
+
+
   // modal registrarte
   $("#myBtn").click(function () {
     $("#myModal").modal();
   });
 
+  var $name = $('#usrname')
   var $email = $('#email');
   var $password = $('#psw2');
   var $checked = $('input[type="checkbox"]');
@@ -62,8 +70,9 @@ $(document).ready(function () {
     }
   });
 
-  $('form > button').on('click', function(event) {
+  $('form > button').on('click', function (event) {
     event.preventDefault();
+    localStorage.name = $name.val();
     localStorage.email = $email.val();
     localStorage.password = $password.val();
     window.location.href = 'vista-home.html';
