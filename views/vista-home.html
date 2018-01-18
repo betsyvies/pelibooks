@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2">
     <!-- Mi css -->
     <link rel="stylesheet" type="text/css" href="../css/main-vistas.css">
   </head>
@@ -22,15 +23,15 @@
         <div class="container-fluid">
           <div class="row">
             <div class="navbar-header">
-              <div class="col-xs-2">
+              <div class="col-xs-2 col-sm-2">
                   <a class="pull-left" href="#">
-                    <img alt="Brand" src="../assets/images/temporal.png" class="img-responsive">
+                    <img alt="Brand" src="../assets/images/temporal.png" class="img-responsive logo-img">
                   </a>
               </div>
-              <div class="col-xs-8">
-                <form>
+              <div class="col-xs-8 col-sm-6">
+                <form class="input-header">
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Buscar">
+                    <input type="text" class="form-control" placeholder="Search">
                     <div class="input-group-btn">
                       <button class="btn btn-default" type="submit">
                         <i class="glyphicon glyphicon-search"></i>
@@ -50,16 +51,16 @@
                   <span class="icon-bar"></span>
                 </button>
               </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right col-xs-12 col-sm-12 col-md-12 col-lg-12" id="bs-example-navbar-collapse-1">
+                <ul class="nav">
+                  <li><a href="#" data-toggle="modal" data-target="#modal-sesion" class="white">Log In</a></li>
+                  <li class="active"><a href="#" class="white">Sign Up</a></li>
+                </ul>
+               </div>
             </div>
           </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-          <ul class="nav">
-            <li><a href="#" data-toggle="modal" data-target="#modal-sesion">Iniciar Sesión</a></li>
-            <li class="active"><a href="#">Regístrate</a></li>
-          </ul>
-         </div>
       </nav>
       <!--Modal iniciar seión-->
         <div id="modal-sesion" class="modal fade" role="dialog">
@@ -71,20 +72,21 @@
            </div>
            <div class="modal-body">
              <form class="form">
-              <div class="form-group col-xs-8 col-xs-offset-2">
+              <div class="form-group col-xs-12">
                 <label class="sr-only">Nombre</label>
                 <div class="input-group">
                   <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
-                  <input type="text" class="form-control" placeholder="Nombre">
+                  <input type="text" class="form-control" placeholder="Name">
                 </div>
                 <div class="input-group">
                   <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
-                  <input type="text" class="form-control" placeholder="Contraseña">
+                  <input type="text" class="form-control" placeholder="Password">
                 </div>
               </div>
               <div class="form-bottom">
-                  <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                <p>¿Olvidaste tu contraseña?<a href="#">Click aquí</a></p>
+                  <button type="submit" class="btn btn-primary col-xs-12">Log In</button>
+                  <button type="submit" class="btn btn-primary col-xs-12">Log In with Google</button>
+                <p class="white">¿Forgot password?<a href="#" class="font-style">Click Here</a></p>
               </div>
             </form>
            </div>
@@ -96,19 +98,22 @@
     <section class="filters">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-6">
+          <div class="col-xs-6 col-sm-4 col-sm-offset-2">
             <button type="button" class="btn btn-primary btn btn-block text-center">Home</button>
           </div>
-          <div class="col-xs-6">
+          <div class="col-xs-6 col-sm-4">
             <select class="selectpicker btn btn-primary width100" name="">
-              <option class="text-center">Género</option>
-              <option class="text-center">Ciencia Ficción</option>
-              <option class="text-center">Romántico</option>
-              <option class="text-center">Biografía</option>
-              <option class="text-center">Clásico</option>
-              <option class="text-center">Acción</option>
+              <option class="text-center">Genre</option>
+              <option class="text-center">Science fiction</option>
+              <option class="text-center">Romantic</option>
+              <option class="text-center">Biography</option>
+              <option class="text-center">Horror</option>
+              <option class="text-center">Fantasy</option>
+              <option class="text-center">Comedy</option>
+              <option class="text-center">Action</option>
               <option class="text-center">Drama</option>
-              <option class="text-center">Aventura</option>
+              <option class="text-center">Adventure</option>
+              <option class="text-center">Suspense</option>
             </select>
           </div>
         </div>
@@ -126,21 +131,21 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="http://michoacantrespuntocero.com/wp-content/uploads/2017/11/harry-potter.jpg" alt="..." class="height-222">
+            <img src="http://cd.cinescape.com.pe/cinescape-603x336-163427.jpg" alt="..." class="height-222">
             <div class="carousel-caption">
-              <h3>Encuentra las mejores pelis para no-muggles</h3>
+              <h3>Find the best movies for non-muggles</h3>
             </div>
           </div>
           <div class="item">
             <img src="http://s3.amazonaws.com/trendybynick.com-production/wp-content/uploads/2015/11/SINSAJO.jpg" alt="..." class="height-222">
             <div class="carousel-caption">
-              <h3>Conviértete en el Sinsajo</h3>
+              <h3>Become the Mockingjay</h3>
             </div>
           </div>
           <div class="item">
-            <img src="https://www.serietotaal.nl/images/nieuws/t/p8rrbtuevyv2-600x338.jpg" alt="..." class="height-222">
+            <img src="http://media1.santabanta.com/full1/Hollywood%20Movies/The%20Mortal%20Instruments%20City%20of%20Bones/the-mortal-instruments-city-of-bones-1v.jpg" alt="..." class="height-222">
             <div class="carousel-caption">
-              <h3>Descubre tu lado Shadow Hunter</h3>
+              <h3>Discover your Shadowhunter side</h3>
             </div>
           </div>
         </div>
@@ -161,16 +166,16 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
-            <h3 class="text-center">Trailer de la peli más votada del mes</h3 class="center-align">
+            <h2 class="text-center font-style">Trailer of the month movie</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <h5 class="text-center">Voldemort: Orígenes del heredero</h5>
+            <h3 class="text-center font-style">Lovely Bones</h3>
           </div>
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=EVDwpbbaZ5Q"></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PTZYYtUJpak" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -179,30 +184,30 @@
     <section>
       <div class="container-fluid">
         <div class="row">
-         <div class="col-xs-12 col-sm-12 col-md-4">
+         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
            <div class="thumbnail">
-             <img src="../assets/images/card1.gif" alt="..."class="height-189">
+             <img src="../assets/images/card1.gif" alt="..."class="height-350">
              <div class="caption">
-               <h3 class="text-center">Únete a esta comunidad Lectora-Cinéfila</h3>
-               <p class="text-center">Inicia sesión y deja tu comentario.</p>
+               <h3 class="text-center">Join this community reader-cinephile</h3>
+               <p class="text-center">When you log in, you can leave your comment and rate the movies we have for you!</p>
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-sm-12 col-md-4">
+         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
            <div class="thumbnail">
-             <img src="https://www.okchicas.com/wp-content/uploads/2015/06/33-razones-de-por-que-eres-mi-mejor-amiga-27.jpg" alt="..." class="height-189">
+             <img src="https://www.okchicas.com/wp-content/uploads/2015/06/33-razones-de-por-que-eres-mi-mejor-amiga-27.jpg" alt="..." class="height-350">
              <div class="caption">
-               <h3 class="text-center">Encuentra tu pelis favoritas</h3>
-               <p class="text-center">Sin tomarte tanto tiempo.</p>
+               <h3 class="text-center">Find all your favorite movies here!</h3>
+               <p class="text-center">Without taking you so long. Without those stormy pop-up windows.</p>
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-sm-12 col-md-4">
+         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
            <div class="thumbnail">
-             <img src="https://i.pinimg.com/originals/65/78/2b/65782b5257420174a52c7f77b65265bd.jpg" alt="..." class="height-189">
+             <img src="https://i.pinimg.com/originals/65/78/2b/65782b5257420174a52c7f77b65265bd.jpg" alt="..." class="height-350">
              <div class="caption">
-               <h3 class="text-center">No olvides que los libros también son tu mejor amigo.</h3>
-               <p class="text-center">¿Ya viste una peli y no has leido su libro?Qué esperas para hacerlo!</p>
+               <h3 class="text-center">Do not forget that reading is the best.</h3>
+               <p class="text-center">If watching a movie is a wonderful experience, imagine reading a book!</p>
              </div>
            </div>
          </div>
