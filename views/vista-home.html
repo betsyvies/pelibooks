@@ -13,7 +13,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Mi css -->
-    <link rel="stylesheet" type="text/css" href="../css/main-vista-home.css">
+    <link rel="stylesheet" type="text/css" href="../css/main-vistas.css">
   </head>
   <body>
     <!--Header-->
@@ -41,35 +41,127 @@
               </div>
               <div class="col-xs-2">
                 <a class="pull-right" href="#">
-                  <img alt="Brand" src="../assets/images/default.gif" class="img-responsive img-circle">
+                  <img alt="Brand" src="../assets/images/default.gif" class="img-responsive img-circle hidden">
                 </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
               </div>
             </div>
           </div>
         </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav">
+            <li><a href="#" data-toggle="modal" data-target="#modal-sesion">Iniciar Sesión</a></li>
+            <li class="active"><a href="#">Regístrate</a></li>
+          </ul>
+         </div>
       </nav>
-      <section class="filters">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-6">
-              <button type="button" class="btn btn-primary btn btn-block">Home</button>
-            </div>
-            <div class="col-xs-6">
-              <select class="selectpicker btn btn-primary width100" name="">
-                <option>Género</option>
-                <option>Ciencia Ficción</option>
-                <option>Romántico</option>
-                <option>Biografía</option>
-                <option>Clásico</option>
-                <option>Acción</option>
-                <option>Drama</option>
-                <option>Aventura</option>
-              </select>
-            </div>
+      <!--Modal iniciar sesión-->
+        <div id="modal-sesion" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-md">
+           <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <img  class="image-modal-sesion col-xs-4 col-xs-offset-4" src="../assets/images/user.png" alt="User">
+           </div>
+           <div class="modal-body">
+             <form class="form">
+              <div class="form-group col-xs-8 col-xs-offset-2">
+                <label class="sr-only">Nombre</label>
+                <div class="input-group">
+                  <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="input-group">
+                  <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
+                  <input type="text" class="form-control" placeholder="Contraseña">
+                </div>
+              </div>
+              <div class="form-bottom">
+                  <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                <p>¿Olvidaste tu contraseña?<a href="#">Click aquí</a></p>
+              </div>
+            </form>
+           </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <!--Modal regístrate sesión-->
+      <div id="modal-sesion" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+         <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <img  class="image-modal-sesion col-xs-4 col-xs-offset-4" src="../assets/images/user.png" alt="User">
+         </div>
+         <div class="modal-body">
+           <form class="form">
+            <div class="form-group col-xs-8 col-xs-offset-2">
+              <label class="sr-only">Nombre</label>
+              <div class="input-group">
+                <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="input-group">
+                <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
+                <input type="text" class="form-control" placeholder="Contraseña">
+              </div>
+            </div>
+            <div class="form-bottom">
+                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+              <p>¿Olvidaste tu contraseña?<a href="#">Click aquí</a></p>
+            </div>
+          </form>
+         </div>
+        </div>
+      </div>
+    </div>
+      <!-- <div class="form-group">
+        <label for="inputEmail" class="color-white">Email address</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="inputPassword" class="color-white">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+      </div>
+      <button id="login-button" type="button" class="btn botton-bg text-bold color-white">Ingresar</button>
+      <button id="signup-button" type="button" class="btn botton-bg text-bold color-white">Registrarse</button>
+      <p class="text-center color-white mg-4">or</p>
+      <div>
+        <button class="btn botton-bg text-bold color-white center-block" id="login-gmail">
+          <span id="login-gmail" class="click2">continue con <i class="fa fa-google-plus-official" aria-hidden="true"></i></span>
+        </button>
+      </div> -->
+    </div>
     </header>
+
+    <section class="filters">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6">
+            <button type="button" class="btn btn-primary btn btn-block text-center">Home</button>
+          </div>
+          <div class="col-xs-6">
+            <select class="selectpicker btn btn-primary width100" name="">
+              <option class="text-center">Género</option>
+              <option class="text-center">Ciencia Ficción</option>
+              <option class="text-center">Romántico</option>
+              <option class="text-center">Biografía</option>
+              <option class="text-center">Clásico</option>
+              <option class="text-center">Acción</option>
+              <option class="text-center">Drama</option>
+              <option class="text-center">Aventura</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
     <section>
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
