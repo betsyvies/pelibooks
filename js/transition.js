@@ -11,15 +11,10 @@ $(document).ready(function() {
   $viewBook.fadeIn(2000);
 
   $buttonGoBook.click(function() {
-    $viewBook.fadeOut(1000, redireccionarPag1);
+    window.location.href = 'views/vista-splash.html';
   });
 
-  function redireccionarPag1() {
-		 window.location.href = 'views/vista-splash.html';
-	 }
-
   // Creamos funciones exclusivas de la vista splash, para luego redireccionar a la vista home.
-
   $('#img-splash').fadeOut(1000, redireccionarPag2);
 
   function redireccionarPag2() {
@@ -27,13 +22,7 @@ $(document).ready(function() {
   };
 
   // Creamos la función que dará el efecto fade out y fade in a las vistas home y filtro
-  $viewFilters.css('display', 'none');
   $buttonFindMovieViewH.click(function(event) {
-    event.preventDefault();
-    $viewHome.fadeOut(1000, redireccionarPag3);
-    $viewFilters.fadeIn(2000);
+    window.location.href = '../views/vista-filtros.html';
   });
-  function redireccionarPag3() {
-		 window.location.href = '../views/vista-filtros.html';
-	 }
 });

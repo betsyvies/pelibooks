@@ -20,11 +20,11 @@ $(document).ready(function() {
               <a onclick="movieSelected('${response.imdbID}')" class="btn btn-primary" href="#">Movie Detaills</a>
               </div>
             </div>
-            `);      
+            `);
             }
           });
           $('#container-film').html('');
-        });   
+        });
       }
     }
   });
@@ -67,7 +67,6 @@ function getMovie() {
         <p>${movie.Plot}</p>
         <hr>
         <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View iMDB</a>
-        <a href="index.html" class="btn btn-default">Go Back To Search</a>
       </div>
     </div>
     `;

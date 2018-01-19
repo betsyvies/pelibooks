@@ -14,18 +14,6 @@
 
 ***
 
-## PARTICIPANTES:
-
-* Vanessa Colqui.
-
-* Yosseline Apcho.
-
-* Betsy Vidal.
-
-* Anny Gutierrez.
-
-***
-
 ## PROCESO:
 
 # Planificación:
@@ -139,12 +127,12 @@ link : https://trello.com/b/jqDvmEmO/pelibooks-encuentra-tu-libro-favorito-hecho
 
 ***
 
-## Fuente consultada
+## Fuentes consultadas
 
-- [Laboratoria LMS] : https://laboratoria1.gitbooks.io/hackathon/content/
+[Laboratoria LMS](https://laboratoria1.gitbooks.io/hackathon/content/)
 
-- [Bootstrap] : https://getbootstrap.com/docs/3.3/css/#forms
+[Bootstrap](https://getbootstrap.com/docs/3.3/css/#forms)
 
-- [W3School] : https://www.w3schools.com/bootstrap/bootstrap_forms.asp
+[W3School](https://www.w3schools.com/bootstrap/bootstrap_forms.asp)
 
-- OMDb API] : http://www.omdbapi.com/
+**[OMDb API](http://www.omdbapi.com/)**
