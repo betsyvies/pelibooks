@@ -177,6 +177,9 @@ div.embed-responsive-16by9 {
 .padding-9{
   padding: 9px;
 }
+button.btn-public{
+  margin-top: 2vh;
+}
 @media (min-width: 768px) {
   /*Estilos para vista home*/
   ul.nav li {
