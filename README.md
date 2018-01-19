@@ -19,30 +19,30 @@
 
 ## Desarrollo de la idea
 
-- **MARTES: 16/01/2017**
+**MARTES: 16/01/2017**
 
 **Planificación, Organización y Ejecución**
 
 1. Descubrimiento e investigación.
 
-+ Búsqueda de información en la web.
+   + Búsqueda de información en la web.
    Herramientas utilizadas: Google chrome.
    Tiempo utilizado: 2 hrs.
 
 2. Sintesis y definición (elección del tema).
 
-+ Desarrollo y envío online de la encuesta: "Plataforma Web, buscador de películas".
+   + Desarrollo y envío online de la encuesta: "Plataforma Web, buscador de películas".
    Herramientas utilizadas: Lluvia de ideas, entrevista presencial.
    Tiempo utilizado: 1 hr.
 
-![imagen](assets/images/Encuesta-pelibooks.png)
+                       ![imagen](assets/images/Encuesta-pelibooks.png)
 
 3. Ideación.
 
-+ Sketch, prototipado inicial.
-+ Análisis de la encuesta.
-+ Repartición de las actividades a realizar.
-"Del total de encuestados, el 100% indicó que la idea de un buscador de peliculas basadas en libros, sería buena y/o genial."
+   + Sketch, prototipado inicial.
+   + Análisis de la encuesta.
+   + Repartición de las actividades a realizar.
+   "Del total de encuestados, el 100% indicó que la idea de un buscador de peliculas basadas en libros, sería buena y/o genial."
    Herramientas utilizadas: Material de laboratoria (UX), pizarra acrílica, google chrome.
    Tiempo utilizado: 1 1/2 hr.
 
@@ -50,56 +50,54 @@
 ![imagen](assets/images/sketch-mobile.jpg)
 ![imagen](assets/images/sketch-desktop.jpg)
 
- **MIÉRCOLES: 17/01/2017**
+**MIÉRCOLES: 17/01/2017**
 
 **Planificación, Organización y Ejecución**
 
 1. Feedback de los pendientes del día anterior.
 
-+ Github, repositorio.
-+ Readme, recolección de todas las evidencias.
-+ Verificación del maquetado según tipo de vista.
-+ Verificación de la funcionalidad según tipo de vista.
+   + Github, repositorio.
+   + Readme, recolección de todas las evidencias.
+   + Verificación del maquetado según tipo de vista.
+   + Verificación de la funcionalidad según tipo de vista.
    Herramientas utilizadas: Trello.
    Tiempo utilizado: 1 hr.
-   
-![imagen](assets/images/trello.png)
 
 2. **Prototipado con correcciones**
 
-+ Maquetado y funcionalidad de las diferentes vistas.
+   + Maquetado y funcionalidad de las diferentes vistas.
    Tiempo utilizado: 4 hrs.
 
- **JUEVES: 18/01/2017**
+**JUEVES: 18/01/2017**
 
 **Planificación, Organización y Ejecución**
 
 1. Feedback de los pendientes del día anterior.
 
-+ Verificación del maquetado según tipo de vista.
-+ Verificación de la funcionalidad según tipo de vista.
+   + Verificación del maquetado según tipo de vista.
+   + Verificación de la funcionalidad según tipo de vista.
    Herramientas utilizadas: Trello.
    Tiempo utilizado: 1/2 hr.
 
 2. **Prototipado con correcciones**
 
-+ Maquetado y funcionalidad de las diferentes vistas.
+   + Maquetado y funcionalidad de las diferentes vistas.
    Tiempo utilizado: 4 hrs.
 
- **VIERNES: 19/01/2017**
+**VIERNES: 19/01/2017**
 
 **Planificación, Organización y Ejecución**
 
 1. Feedback de los pendientes del día anterior.
 
-+ Verificación del maquetado según tipo de vista.
-+ Verificación de la funcionalidad según tipo de vista.
+   + Verificación del maquetado según tipo de vista.
+   + Verificación de la funcionalidad según tipo de vista.
    Herramientas utilizadas: Trello.
    Tiempo utilizado: 1/2 hr.
 
 2. **Prototipado con correcciones**
 
-+ Maquetado y funcionalidad de las diferentes vistas.
+   + Maquetado y funcionalidad de las diferentes vistas.
    Tiempo utilizado: 4 hrs.
 
 ## Herramientas Utilizadas
