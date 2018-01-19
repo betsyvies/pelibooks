@@ -1,15 +1,8 @@
 $(document).ready(function() { 
-  $buttonSearch = $('#button-search');
-
-  $buttonSearch.on('click', function() {
-    window.location.assign('vista-filtros.html');
-  });
-
   // funcionalidad user
   $('#login-button').click(function() {
     $('#user').append('<p><strong>texto de prueba</strong></p>');
   });
-
 
   // modal registrarte
   $('#myBtn').click(function() {

@@ -6,8 +6,8 @@ header nav.navbar.navbar-default{
     padding: 10px;
   }
   div.form-group {
-      margin-bottom: 0;
-      outline: none;
+    margin-bottom: 0;
+    outline: none;
   }
   section.filters{
     margin-bottom: 20px;
