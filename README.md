@@ -2,13 +2,15 @@
 
 # Pelibooks
 
-- Plataforma web responsive que ayuda a los fanáticos a la lectura y al cine a encontrar películas (información detallada) basadas en novelas.
+- Es una plataforma web responsive que ayuda a los fanáticos de la lectura y del cine a encontrar películas (información detallada) basadas en novelas.
 
-***
+## ¿Para qué sirve?
 
-## ¿Cómo nació la idea de PeliBooks?
+- Sirve para brindar una experiencia personalizada de búsqueda de información sobre películas basadas en una novela.
 
-- En nuestro país el porcentaje de lectores están en aumento (*); así mismo 8 de cada 10 personas usan internet para ver películas. Por ende nos encontramos frente a un grupo desatendido dentro del ámbito del entretenimiento y lectura; ya que son los lectores quienes desarrollan un actitud crítica y de búsqueda frente a los productos que consumen; y en muchas ocasiones han leido un libro luego de haber visto una película, o viceversa (**). Y así nació Pelibooks.
+## ¿Cómo decidieron por ese producto / cómo validaron la idea?
+
+- A través de encuestas (13 personas), entrevistas y feedback grupal continuo, encontramos que tenemos a un grupo del mercado no cubierto dentro del ámbito del entretenimiento y lectura; personas amantes de la lectura (público objetivo) y cinéfilos (público potencial).
 
 ***
 
@@ -36,7 +38,7 @@ link : https://trello.com/b/jqDvmEmO/pelibooks-encuentra-tu-libro-favorito-hecho
 
 ## Desarrollo de la idea
 
-- **MARTES: 16/01/2017**
+**MARTES: 16/01/2017**
 
 **Planificación, Organización y Ejecución**
 
@@ -59,17 +61,17 @@ link : https://trello.com/b/jqDvmEmO/pelibooks-encuentra-tu-libro-favorito-hecho
    + Sketch, prototipado inicial.
    + Análisis de la encuesta.
    + Repartición de las actividades a realizar.
-     "Del total de encuestados, el 100% indicó que la idea de un buscador de peliculas basadas en libros, sería buena y/o genial."
+   "Del total de encuestados, el 100% indicó que la idea de un buscador de peliculas basadas en libros, sería buena y/o genial."
    Herramientas utilizadas: Material de laboratoria (UX), pizarra acrílica, google chrome.
    Tiempo utilizado: 1 1/2 hr.
 
 ![imagen](assets/images/Encuesta-preguntaUno.png)
+
 ![imagen](assets/images/sketch-mobile.jpg)
+
 ![imagen](assets/images/sketch-desktop.jpg)
 
-***
-
- **MIÉRCOLES: 16/01/2017**
+**MIÉRCOLES: 17/01/2017**
 
 **Planificación, Organización y Ejecución**
 
@@ -82,7 +84,37 @@ link : https://trello.com/b/jqDvmEmO/pelibooks-encuentra-tu-libro-favorito-hecho
    Herramientas utilizadas: Trello.
    Tiempo utilizado: 1 hr.
 
-![imagen](assets/images/trello.png)
+2. **Prototipado con correcciones**
+
+   + Maquetado y funcionalidad de las diferentes vistas.
+   Tiempo utilizado: 4 hrs.
+
+**JUEVES: 18/01/2017**
+
+**Planificación, Organización y Ejecución**
+
+1. Feedback de los pendientes del día anterior.
+
+   + Verificación del maquetado según tipo de vista.
+   + Verificación de la funcionalidad según tipo de vista.
+   Herramientas utilizadas: Trello.
+   Tiempo utilizado: 1/2 hr.
+
+2. **Prototipado con correcciones**
+
+   + Maquetado y funcionalidad de las diferentes vistas.
+   Tiempo utilizado: 4 hrs.
+
+**VIERNES: 19/01/2017**
+
+**Planificación, Organización y Ejecución**
+
+1. Feedback de los pendientes del día anterior.
+
+   + Verificación del maquetado según tipo de vista.
+   + Verificación de la funcionalidad según tipo de vista.
+   Herramientas utilizadas: Trello.
+   Tiempo utilizado: 1/2 hr.
 
 2. **Prototipado con correcciones**
 
@@ -95,8 +127,15 @@ link : https://trello.com/b/jqDvmEmO/pelibooks-encuentra-tu-libro-favorito-hecho
 
 - Html, para la estructura del contenido.
 - Css, para darle estilo al contenido.
-- Bootstrap
-- The Open Movie Database (OMDb API)
+- Bootstrap, para estilo del contenido.
+- The Open Movie Database (OMDb API).
+
+## Integrantes
+
+- Betsy Vidal
+- Anny Gutierrez
+- Yosseline Apcho
+- Vanessa Colqui
 
 ***
 
