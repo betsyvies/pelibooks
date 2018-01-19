@@ -10,6 +10,9 @@
 .margin-btm-img-pelis{
   margin-bottom: 2vh;
 }
+ul.nav li.none{
+  display: none;
+}
 body {
   background-image: url('https://c.pxhere.com/photos/3e/ff/wood_background_deck_wooden_texture_wall_floor_board-1184860.jpg!d'); /*CAPE HONEY*/
   background-repeat: no-repeat;
