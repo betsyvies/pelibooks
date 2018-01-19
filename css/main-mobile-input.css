@@ -21,3 +21,10 @@ body{
 .margin-top{
   margin-top: 2vh;
 }
+a:hover {
+   color: #FFF;
+   text-decoration: underline;
+}
+a{
+  font-size: 20px;
+}
