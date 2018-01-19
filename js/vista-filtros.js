@@ -17,7 +17,7 @@ $(document).ready(function() {
               <div class="text-center">
               <img class="img-responsive img-pelis" src="${response.Poster}">
               <h5 class="font-style">${response.Title}</h5>
-              <a onclick="movieSelected('${response.imdbID}')" class="btn btn-primary fade-out" href="#">Movie Detaills</a>
+              <a onclick="movieSelected('${response.imdbID}')" class="btn btn-primary" href="#">Movie Detaills</a>
               </div>
             </div>
             `);
