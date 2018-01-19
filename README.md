@@ -14,18 +14,6 @@
 
 ***
 
-## PARTICIPANTES:
-
-* Vanessa Colqui.
-
-* Yosseline Apcho.
-
-* Betsy Vidal.
-
-* Anny Gutierrez.
-
-***
-
 ## PROCESO:
 
 # Planificación:
