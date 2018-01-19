@@ -1,9 +1,4 @@
 $(document).ready(function() {
-  $('.library-menu').click(function(event) {
-    $(this).toggleClass('active');
-    event.preventDefault();
-  });
-
   $genre = $('#genders');
 
   $genre.on('change', function(event) {
@@ -12,11 +7,12 @@ $(document).ready(function() {
 
     for (const key in Object.keys(data)) {
       if ($genre === Object.keys(data)[key]) {
-        var films = data[$genre];
+        var films = Object.keys(data[$genre]);
 
         films.forEach(element => {
           $.getJSON('http://www.omdbapi.com/?apikey=b264a6c3&t=' + encodeURI(element)).then(function(response) {
-            $('#container-film').append(`
+            if (response.Poster !== undefined && response.Poster !== 'N/A') {
+              $('#container-film').append(`
             <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
               <div class="text-center">
               <img class="img-responsive img-pelis" src="${response.Poster}">
@@ -24,10 +20,11 @@ $(document).ready(function() {
               <a onclick="movieSelected('${response.imdbID}')" class="btn btn-primary" href="#">Movie Detaills</a>
               </div>
             </div>
-            `);
+            `);      
+            }
           });
-        });
-        $('#container-film').html('');
+          $('#container-film').html('');
+        });   
       }
     }
   });
@@ -65,12 +62,12 @@ function getMovie() {
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12">
-       <div class="well">
-         <h3 class="font-style">Synopsis</h3>
-         <hr>
-         <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View iMDB</a>
-       </div>
+      <div class="well">
+        <h3>Plot</h3>
+        <p>${movie.Plot}</p>
+        <hr>
+        <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View iMDB</a>
+        <a href="index.html" class="btn btn-default">Go Back To Search</a>
       </div>
     </div>
     `;
