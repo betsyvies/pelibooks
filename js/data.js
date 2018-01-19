@@ -4,13 +4,13 @@ var data = {
       'película': 'The Hunger Games',
       'año' : '2012',
     },
-    'escritor': {
+    'Kazuo Ishiguro': {
       'película': 'Never Let Me Go',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Host',
-      'año' : '',
+      'año' : '2013',
     },
     'Suzanne Collins': {
       'película': 'The Hunger Games: Mockingjay - Part 2',
@@ -20,21 +20,21 @@ var data = {
       'película': 'The Hunger Games: Mockingjay - Part 1',
       'año' : '',
     },
-    'escritor': {
+    'Catherine Fisher': {
       'película': 'Incarceron',
-      'año' : '',
+      'año' : '2017',
     },
-    'escritor': {
+    'P. D. James': {
       'película': 'Children of Men',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Richard Matheson': {
       'película': 'I Am Legend',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Audrey Niffenegger': {
       'película': 'The Time Traveler is Wife',
-      'año' : '',
+      'año' : '2009',
     },
     'Philip Pullman': {
       'película': 'The Golden Compass',
@@ -53,237 +53,237 @@ var data = {
       'película': '100 Rifles',
       'año' : '1969',
     },
-    'escritor': {
+    'E. L. James': {
       'película': 'Fifty Shades of Grey',
-      'año' : '',
+      'año' : '2015',
     },
-    'escritor': {
+    'Charles Dickens': {
       'película': 'Great Expectations',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
-      'película': 'Serpent Gir',
-      'año' : '',
+    'Matthew Carnahan': {
+      'película': 'Serpent Girl',
+      'año' : '2019',
     },
-    'escritor': {
+    'Kazuo Ishiguro': {
       'película': 'Never Let Me Go',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Olaug Nilssen': {
       'película': 'Få meg på, for faen',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Joe Dunthorne': {
       'película': 'Submarine',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Host',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 1',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 2',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Janet Evanovich': {
       'película': 'One for the Money',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Melissa Marr': {
       'película': 'Wicked Lovely',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Hans Christian Andersen': {
       'película': 'The Little Mermaid',
-      'año' : '',
+      'año' : '2016',
     },
-    'escritor': {
+    'Carrie Ryan': {
       'película': 'The Forest of Hands and Teeth',
-      'año' : '',
+      'año' : '2018',
     },
-    'escritor': {
+    'Maggie Stiefvater': {
       'película': 'Shiver',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Lauren Kate': {
       'película': 'Fallen',
-      'año' : '',
+      'año' : '2016',
     },
-    'escritor': {
+    'Lauren Oliver': {
       'película': 'Delirium',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Kami Garcia & Margaret Stohl': {
       'película': 'Beautiful Creatures',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'Alex Flinn': {
       'película': 'Beastly',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Libba Bray': {
       'película': 'A Great and Terrible Beauty',
-      'año' : '',
+      'año' : '2003',
     },
-    'escritor': {
+    'Chris DArienzo': {
       'película': 'Rock of Ages',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Ann Brashares': {
       'película': 'The Sisterhood of the Traveling Pants 2',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Ann Brashares': {
       'película': 'The Sisterhood of the Traveling Pants',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Annie Proulx': {
       'película': 'Brokeback Mountain',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'James Mangold': {
       'película': 'Walk the Line',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Jennifer Weiner': {
       'película': 'In Her Shoes',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Dan Millman': {
       'película': 'Peaceful Warrior',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'William Somerset Maugham': {
       'película': 'The Painted Veil',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Stewart ONan': {
       'película': 'Snow Angels',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Charlotte Brontë': {
       'película': 'Jane Eyre',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Emma McLaughlin & Nicola Kraus': {
       'película': 'The Nanny Diaries',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Alessandro Baricco': {
       'película': 'Silk',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jim Harrison': {
       'película': 'The Great Debaters',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Cecelia Ahern': {
       'película': 'P.S. I Love You',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Catherine Johnson': {
       'película': 'Mamma Mia!',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Amanda Foreman': {
       'película': 'The Duchess',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'F. Scott Fitzgerald': {
       'película': 'The Curious Case of Benjamin Button',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Richard Yates': {
       'película': 'Revolutionary Road',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Sophie Kinsella': {
       'película': 'Confessions of a Shopaholic',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Jay Parini': {
       'película': 'The Last Station',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Walter Kirn': {
       'película': 'Up in the Air',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Thomas Cobb': {
       'película': 'Crazy Heart',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Christopher Isherwood': {
       'película': 'A Single Man',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Thomas Hardy': {
       'película': 'Tamara Drewe',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Charlotte Brontë': {
       'película': 'Jane Eyre',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Water for Elephants': {
       'película': 'Water for Elephants',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Ian McEwan': {
       'película': 'Atonement',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Robert B. Parker': {
       'película': 'Appaloosa',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Emily Brontë': {
       'película': 'Wuthering Heights',
-      'año' : '',
+      'año' : '1992',
     },
-    'escritor': {
+    'Audrey Niffenegger': {
       'película': 'The Time Traveler is Wife',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Neil Gaiman': {
       'película': 'Stardust',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Persuasion',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Emma',
-      'año' : '',
+      'año' : '1948',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Northanger Abbey',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Sense and Sensibility',
-      'año' : '',
+      'año' : '1995',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Pride & Prejudice',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Eclipse',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: New Moon',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'Twilight',
-      'año' : '',
+      'año' : '2008',
     },
     'Winston Groom': {
       'película': 'Forrest Gump',
@@ -351,270 +351,270 @@ var data = {
       'película': '127 Hours',
       'año' : '2010',
     },
-    'escritor': {
+    'James Mangold': {
       'película': 'Walk the Line',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Mark Frost': {
       'película': 'The Greatest Game Ever Played',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Jonathan Hoag': {
       'película': 'Glory Road',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Giles Foden': {
       'película': 'The Last King of Scotland',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Maira Kalman': {
       'película': 'The Pursuit of Happyness',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Elie Wiesel': {
       'película': 'Freedom Writers',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jon Krakauer': {
       'película': 'Into the Wild',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Ron Hansen': {
       'película': 'The Assassination of Jesse James by the Coward Robert Ford',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'George Crile': {
       'película': 'Charlie Wilson is War',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jim Harrison': {
       'película': 'The Great Debaters',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Amanda Foreman': {
       'película': 'The Duchess',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Robert C. Gallagher': {
       'película': 'The Express', 
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Bryan Burrough': {
       'película': 'Public Enemies', 
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Steve Lopez': {
       'película': 'The Soloist', 
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Jay Parini': {
       'película': 'The Last Station', 
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Michael Lewis': {
       'película': 'The Blind Side', 
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Sunjeev Sahota': {
       'película': 'The Runaways', 
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Ben Mezrich': {
       'película': 'The Social Network', 
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'William Nack': {
       'película': 'Secretariat', 
-      'año' : '',
+      'año' : '2010',
     },
     'Sylvia Nasar': {
       'película': 'A Beautiful Mind',
       'año' : '2001',
     },
-    'escritor': {
+    'L. J. Smith': {
       'película': 'Awakenings', 
-      'año' : '',
+      'año' : '1990',
     },
   },
   'Horror': {
-    'escritor': {
+    'Stephen King': {
       'película': 'The Mist', 
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Richard Matheson': {
       'película': 'I Am Legend', 
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Stephen King': {
       'película': 'It', 
       'año' : '',
     },
-    'escritor': {
+    'Daniel Waters': {
       'película': 'Vampire Academy', 
-      'año' : '',
+      'año' : '2014',
     },
 
   },
   'Fantasy': {
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'Twilight',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Yann Martel': {
       'película': 'Life of Pi',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
-      'película': 'Serpent Gir',
-      'año' : '',
+    'Matthew Carnahan': {
+      'película': 'Serpent Girl',
+      'año' : '2019',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 1',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 2',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Silver Chair',
-      'año' : '',
+      'año' : '2018',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Magician is Nephew',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Mario Mendoza': {
       'película': 'Paranormalcy',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Melissa Marr': {
       'película': 'Wicked Lovely',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Daniel Waters': {
       'película': 'Vampire Academy',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Frank Beddor': {
       'película': 'The Looking Glass Wars',
-      'año' : '',
+      'año' : '2015',
     },
-    'escritor': {
+    'Hans Christian Andersen': {
       'película': 'The Little Mermaid',
-      'año' : '',
+      'año' : '2016',
     },
-    'escritor': {
+    'Maggie Stiefvater': {
       'película': 'Shiver',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Catherine Fisher': {
       'película': 'Incarceron',
-      'año' : '',
+      'año' : '2017',
     },
-    'escritor': {
+    'Gayle Forman': {
       'película': 'If I Stay',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Sophie Jordan': {
       'película': 'Firelight',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Lauren Kate': {
       'película': 'Fallen',
-      'año' : '',
+      'año' : '2016',
     },
-    'escritor': {
+    'Lauren Oliver': {
       'película': 'Delirium',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Kami Garcia & Margaret Stohl': {
       'película': 'Beautiful Creatures',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'Alex Flinn': {
       'película': 'Beastly',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Aprilynne Pike': {
       'película': 'Wings',
-      'año' : '',
+      'año' : '1927',
     },
-    'escritor': {
+    'Libba Bray': {
       'película': 'A Great and Terrible Beauty',
-      'año' : '',
+      'año' : '2003',
     },
-    'escritor': {
+    'Susan Hill': {
       'película': 'The Woman in Black',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Tony DiTerlizzi & Holly Black': {
       'película': 'The Spiderwick Chronicles',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Wendy Orr': {
       'película': 'Nim is Island',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Cornelia Funke': {
       'película': 'Inkheart',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Audrey Niffenegger': {
       'película': 'The Time Traveler is Wife',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Alice Sebold': {
       'película': 'The Lovely Bones',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Two Towers',
-      'año' : '',
+      'año' : '2001',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Return of the King',
-      'año' : '',
+      'año' : '2003',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Fellowship of the Ring',
-      'año' : '',
+      'año' : '2001',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Hobbit: An Unexpected Journey',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Voyage of the Dawn Tread',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: Prince Caspian',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Neil Gaiman': {
       'película': 'Stardust',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Rick Riordan': {
       'película': 'Percy Jackson: Sea of Monsters',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'Rick Riordan': {
       'película':  'Percy Jackson & the Olympians: The Lightning Thief',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película':  'The Twilight Saga: Eclipse',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: New Moon',
-      'año' : '',
+      'año' : '2009',
     },
     'J. K. Rowling': {
       'película': 'Harry Potter and the Deathly Hallows: Part 1',
@@ -636,9 +636,9 @@ var data = {
       'película': 'Harry Potter and the Deathly Hallows: Part 2',
       'año' : '2011',
     },
-    'escritor': {
+    'J. K. Rowling': {
       'película':  'Harry Potter and the Goblet of Fire',
-      'año' : '',
+      'año' : '2005',
     },
     'J. K. Rowling': {
       'película': 'Harry Potter and the Sorcerer is Stone',
@@ -654,85 +654,85 @@ var data = {
       'película': 'A Good Year',
       'año' : '2006',
     },
-    'escritor': {
+    'Olaug Nilssen': {
       'película': 'Få meg på, for faen',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Joe Dunthorne': {
       'película': 'Submarine',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Mordecai Richler': {
       'película': 'Barney is Version',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Janet Evanovich': {
       'película': 'One for the Money',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Daniel Waters': {
       'película': 'Vampire Academy',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Chris DArienzo': {
       'película': 'Rock of Ages',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Micol Ostow': {
       'película': 'Mean Girls',
-      'año' : '',
+      'año' : '2004',
     },
-    'escritor': {
+    'Ann Brashares': {
       'película': 'The Sisterhood of the Traveling Pants 2',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Ann Brashares': {
       'película': 'The Sisterhood of the Traveling Pants',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Jennifer Weiner': {
       'película': 'In Her Shoes',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Lauren Weisberger': {
       'película': 'The Devil Wears Prada',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Emma McLaughlin & Nicola Kraus': {
       'película': 'The Nanny Diaries',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'George Crile': {
       'película': 'Charlie Wilson is War',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Winifred Watson': {
       'película': 'Miss Pettigrew Lives for a Day',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Wendy Orr': {
       'película': 'Nim is Island',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Catherine Johnson': {
       'película': 'Mamma Mia!',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Charles Bukowski': {
       'película': 'The Women',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Sophie Kinsella': {
       'película': 'Confessions of a Shopaholic',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Thomas Hardy': {
       'película': 'Tamara Drewe',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Mansfield Park',
-      'año' : '',
+      'año' : '1999',
     },
     'Patrick Cauvin': {
       'película': 'A Little Romance',
@@ -748,13 +748,13 @@ var data = {
       'película': '100 Rifles',
       'año' : '1969',
     },
-    'escritor': {
+    'Mark Twain': {
       'película': 'Tom Sawyer & Huckleberry Finn',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Host',
-      'año' : '',
+      'año' : '2013',
     },
     'Suzanne Collins': {
       'película': 'The Hunger Games: Mockingjay - Part 2',
@@ -764,37 +764,37 @@ var data = {
       'película': 'The Hunger Games: Mockingjay - Part 1',
       'año' : '',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Magician is Nephew',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Janet Evanovich': {
       'película': 'One for the Money',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Daniel Waters': {
       'película': 'Vampire Academy',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    ' Lee Child': {
       'película': 'Jack Reacher',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Harry Gerard Bissinger': {
       'película': 'Friday Night Lights',
-      'año' : '',
+      'año' : '2004',
     },
-    'escritor': {
+    'Paul Gallico': {
       'película': 'Poseidon',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Rajiv Chandrasekaran': {
       'película': 'Green Zone',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: Prince Caspian',
-      'año' : '',
+      'año' : '2008',
     },
     'Stephen King': {
       'película': 'The Green Mile',
@@ -826,468 +826,464 @@ var data = {
       'película': '127 Hours',
       'año' : '2010',
     },
-    'escritor': {
+    'E. L. James': {
       'película': 'Fifty Shades of Grey',
-      'año' : '',
+      'año' : '2015',
     },
-    'escritor': {
+    'Yann Martel': {
       'película': 'Life of Pi',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Charles Dickens': {
       'película': 'Great Expectations',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Kazuo Ishiguro': {
       'película': 'Never Let Me Go',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Victoria Hislop': {
       'película': 'Island',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Mark Twain': {
       'película': 'Tom Sawyer & Huckleberry Finn',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Marianne Fredriksson': {
       'película': 'Simon och ekarna',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Roberto Saviano': {
       'película': 'Gomorra',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Margaret Humphreys': {
       'película': 'Oranges and Sunshine',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Joe Dunthorne': {
       'película': 'Submarine',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Mordecai Richler': {
       'película': 'Barney is Version',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Kylie Ladd': {
       'película': 'The Way Back',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 1',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 2',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Carrie Ryan': {
       'película': 'The Forest of Hands and Teeth',
-      'año' : '',
+      'año' : '2018',
     },
-    'escritor': {
+    'Catherine Fisher': {
       'película': 'Incarceron',
-      'año' : '',
+      'año' : '2017',
     },
-    'escritor': {
+    'Gayle Forman': {
       'película': 'If I Stay',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
-      'película': 'Society',
-      'año' : '',
+    'Ally Carter': {
+      'película': 'Heist Society',
+      'año' : '2016',
     },
-    'escritor': {
+    'Lauren Kate': {
       'película': 'Fallen',
-      'año' : '',
+      'año' : '2016',
     },
-    'escritor': {
+    'Kami Garcia & Margaret Stohl': {
       'película': 'Beautiful Creatures',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'Alex Flinn': {
       'película': 'Beastly',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Aprilynne Pike': {
       'película': 'Wings',
-      'año' : '',
+      'año' : '1927',
     },
-    'escritor': {
+    'Libba Bray': {
       'película': 'A Great and Terrible Beauty',
-      'año' : '',
+      'año' : '2003',
     },
-    'escritor': {
+    'Susan Hill': {
       'película': 'The Woman in Black',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Chris DArienzo': {
       'película': 'Rock of Ages',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Matt Bondurant': {
       'película': 'Lawless',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Rosalind Wiseman': {
       'película': 'Mean Moms',
-      'año' : '',
+      'año' : '2018',
     },
-    'escritor': {
+    'Harry Gerard Bissinger': {
       'película': 'Friday Night Lights',
-      'año' : '',
+      'año' : '2004',
     },
-    'escritor': {
+    'William Makepeace Thackeray': {
       'película': 'Vanity Fair',
-      'año' : '',
+      'año' : '2004',
     },
-    'escritor': {
+    'F.X. Toole': {
       'película': 'Million Dollar Baby',
-      'año' : '',
+      'año' : '2004',
     },
-    'escritor': {
+    'Ann Howard Creel': {
       'película': 'The Magic of Ordinary Days',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Ann Brashares': {
       'película': 'The Sisterhood of the Traveling Pants 2',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Annie Proulx': {
       'película': 'Brokeback Mountain',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Jennifer Weiner': {
       'película': 'In Her Shoes',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Mark Frost': {
       'película': 'The Greatest Game Ever Played',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Jonathan Hoag': {
       'película': 'Glory Road',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Paul Gallico': {
       'película': 'Poseidon',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Dan Millman': {
       'película': 'Peaceful Warrior',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Lauren Weisberger': {
       'película': 'The Devil Wears Prada',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Giles Foden': {
       'película': 'The Last King of Scotland',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Janette Oke': {
       'película': 'Love is Abiding Joy',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
-      'película': '10',
-      'año' : '',
-    },
-    'escritor': {
+    'Maira Kalman': {
       'película': 'The Pursuit of Happyness',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'William Somerset Maugham': {
       'película': 'The Painted Veil',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'P. D. James': {
       'película': 'Children of Men',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Elie Wiesel': {
       'película': 'Freedom Writers',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Stewart ONan': {
       'película': 'Snow Angels', 
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Charlotte Brontë': {
       'película': 'Jane Eyre',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Robert Graysmith': {
       'película': 'Zodiac',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Beverly Lewis': {
       'película': 'Saving Sarah Cain',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Emma McLaughlin & Nicola Kraus': {
       'película': 'The Nanny Diaries',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jon Krakauer': {
       'película': 'Into the Wild',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Alessandro Baricco': {
       'película': 'Silk',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Ron Hansen': {
       'película': 'The Assassination of Jesse James by the Coward Robert Ford',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Cormac McCarthy': {
       'película': 'No Country for Old Men',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Dennis Lehane': {
       'película': 'Gone Baby Gone',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'George Crile': {
       'película': 'Charlie Wilson is War',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jim Harrison': {
       'película': 'The Great Debaters',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Richard Matheson': {
       'película': 'I Am Legend',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Janette Oke': {
       'película': 'Love is Unfolding Dream',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Cecelia Ahern': {
       'película': 'P.S. I Love You',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Alicia Erian': {
       'película': 'Nothing Is Private',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Charles Bukowski': {
       'película': 'The Women',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Joseph Finder': {
       'película': '21',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Amanda Foreman': {
       'película': 'The Duchess',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Robert C. Gallagher': {
       'película': 'The Express',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Sue Monk Kidd': {
       'película': 'The Secret Life of Bees',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'John Boyne': {
       'película': 'The Boy in the Striped Pyjamas',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'F. Scott Fitzgerald': {
       'película': 'The Curious Case of Benjamin Button',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Richard Yates': {
       'película': 'Revolutionary Road',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Bryan Burrough': {
       'película': 'Public Enemies',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Stephen J Rivele & Michael Lachance': {
       'película': 'Like Dandelion Dust',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Steve Lopez': {
       'película': 'The Soloist',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Jay Parini': {
       'película': 'The Last Station',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Walter Kirn': {
       'película': 'Up in the Air',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Thomas Cobb': {
       'película': 'Crazy Heart',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Christopher Isherwood': {
       'película': 'A Single Man',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Michael Lewis': {
       'película': 'The Blind Side',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Daniel Woodrell': {
       'película': 'Winter is Bone',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Sunjeev Sahota': {
       'película': 'The Runaways',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Robert Harris': {
       'película': 'The Ghost Writer',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Rajiv Chandrasekaran': {
       'película': 'Green Zone',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Thomas Hardy': {
       'película': 'Tamara Drewe',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Chuck Hogan': {
       'película': 'The Town',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Ben Mezrich': {
       'película': 'The Social Network',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'William Nack': {
       'película': 'Secretariat',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Charlotte Brontë': {
       'película': 'Jane Eyre',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Michael Connelly': {
       'película': 'The Lincoln Lawyer',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Water for Elephants': {
       'película': 'Water for Elephants',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Noel Streatfield': {
       'película': 'Ballet Shoes',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'L. J. Smith': {
       'película': 'Awakenings',
-      'año' : '',
+      'año' : '1990',
     },
-    'escritor': {
+    'Ian McEwan': {
       'película': 'Atonement',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Robert B. Parker': {
       'película': 'Appaloosa',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Lionel Shriver': {
       'película': 'We Need to Talk About Kevin',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Emily Brontë': {
       'película': 'Wuthering Heights',
-      'año' : '',
+      'año' : '1992',
     },
-    'escritor': {
+    'Audrey Niffenegger': {
       'película': 'The Time Traveler is Wife',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Stephen King': {
       'película': 'Misery',
-      'año' : '',
+      'año' : '1990',
     },
-    'escritor': {
+    'Stephen King': {
       'película': 'Stand by Me',
-      'año' : '',
+      'año' : '1986',
     },
-    'escritor': {
+    'Stephen King': {
       'película': 'The Shawshank Redemption',
-      'año' : '',
+      'año' : '1994',
     },
-    'escritor': {
+    'John Grisham': {
       'película': 'The Pelican Brief',
-      'año' : '',
+      'año' : '1993',
     },
-    'escritor': {
+    'Alice Sebold': {
       'película': 'The Lovely Bones', 
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Two Towers',
-      'año' : '',
+      'año' : '2002',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Return of the King',
-      'año' : '',
+      'año' : '2003',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Fellowship of the Ring',
-      'año' : '',
+      'año' : '2001',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Emma',
-      'año' : '',
+      'año' : '1948',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Persuasion',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Screen Two: Persuasion',
-      'año' : '',
+      'año' : '1995',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Northanger Abbey',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Mansfield Park',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Sense and Sensibility',
-      'año' : '',
+      'año' : '1995',
     },
-    'escritor': {
+    'Jane Austen': {
       'película': 'Pride & Prejudice',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Eclipse',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: New Moon',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'Twilight',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Jodi Picoult': {
       'película': 'My Sister is Keeper',
-      'año' : '',
+      'año' : '2009',
     },
     'William Golding': {
-      'película': 'Lord of the Flie',
+      'película': 'Lord of the Flies',
       'año' : '1990',
     },
     'Winston Groom': {
@@ -1396,29 +1392,29 @@ var data = {
       'película': '127 Hours',
       'año' : '2010',
     },
-    'escritor': {
+    'Yann Martel': {
       'película': 'Life of Pi',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Mark Twain': {
       'película': 'Tom Sawyer & Huckleberry Finn',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Kylie Ladd': {
       'película': 'The Way Back',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Host',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 1',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Breaking Dawn - Part 2',
-      'año' : '',
+      'año' : '2012',
     },
     'Suzanne Collins': {
       'película': 'The Hunger Games: Mockingjay - Part 2',
@@ -1428,120 +1424,117 @@ var data = {
       'película': 'The Hunger Games: Mockingjay - Part 1',
       'año' : '',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Silver Chair',
-      'año' : '',
+      'año' : '2018',
     }, 
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Magician is Nephew',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'Mario Mendoza': {
       'película': 'Paranormalcy',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Hans Christian Andersen': {
       'película': 'The Little Mermaid',
-      'año' : '',
-    }, 'escritor': {
+      'año' : '2016',
+    }, 
+    'Lauren Kate': {
       'película': 'Fallen',
-      'año' : '',
+      'año' : '2016',
     },
-    'escritor': {
+    'Lauren Oliver': {
       'película': 'Delirium',
-      'año' : '',
+      'año' : '2014',
     },
-    'escritor': {
+    'William Joyce': {
       'película': 'Rise of the Guardians',
-      'año' : '',
+      'año' : '2012',
     }, 
-      'escritor': {
+    'James Mangold': {
       'película': 'Walk the Line',
-      'año' : '',
+      'año' : '2005',
     },
-    'escritor': {
+    'Paul Gallico': {
       'película': 'Poseidon',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
-      'película': '10',
-      'año' : '',
-    }, 
-      'escritor': {
+    'Jon Krakauer': {
       'película': 'Into the Wild',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Tony DiTerlizzi & Holly Black': {
       'película': 'The Spiderwick Chronicles',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Wendy Orr': {
       'película': 'Nim is Island',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Cornelia Funke': {
       'película': 'Inkheart',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Stephen King': {
       'película': 'Stand by Me',
-      'año' : '',
+      'año' : '1986',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Two Towers',
-      'año' : '',
+      'año' : '2002',
     }, 
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Return of the King',
-      'año' : '',
+      'año' : '2003',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Lord of the Rings: The Fellowship of the Ring',
-      'año' : '',
+      'año' : '2001',
     },
-    'escritor': {
+    'J. R. R. Tolkien': {
       'película': 'The Hobbit: An Unexpected Journey',
-      'año' : '',
+      'año' : '2012',
     }, 
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Voyage of the Dawn Tread',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: Prince Caspian',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'C. S. Lewis': {
       'película': 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe',
-      'año' : '',
+      'año' : '2005',
     }, 
-    'escritor': {
+    'Neil Gaiman': {
       'película': 'Stardust',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Rick Riordan': {
       'película': 'Percy Jackson: Sea of Monsters',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'Rick Riordan': {
       'película': 'Percy Jackson & the Olympians: The Lightning Thief',
-      'año' : '',
+      'año' : '2010',
     }, 
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: Eclipse',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Twilight Saga: New Moon',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'William Golding': {
       'película': 'Lord of the Flie',
-      'año' : '',
+      'año' : '1990',
     }, 
-    'escritor': {
+    'Jonathan Safran Foer': {
       'película': 'Extremely Loud & Incredibly Clos',
-      'año' : '',
+      'año' : '2011',
     },
     'J. K. Rowling': {
       'película': 'Harry Potter and the Half-Blood Prince',
@@ -1583,9 +1576,9 @@ var data = {
       'película': 'A Little Romance',
       'año' : '1979',
     },
-    'escritor': {
-      'película': 'Rifles',
-      'año' : '',
+    'Robert MacLeods': {
+      'película': '100 Rifles',
+      'año' : '1969',
     }, 
     'Suzanne Collins': {
       'película': 'The Hunger Games',
@@ -1601,121 +1594,121 @@ var data = {
       'película': '127 Hours',
       'año' : '2010',
     },
-    'escritor': {
+    'E. L. James': {
       'película': 'Fifty Shades of Grey',
-      'año' : '',
+      'año' : '2015',
     },
-    'escritor': {
+    'Alan Wake': {
       'película': 'Wake',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Stephenie Meyer': {
       'película': 'The Host',
-      'año' : '',
+      'año' : '2013',
     }, 
     'Suzanne Collins': {
       'película': 'The Hunger Games: Mockingjay - Part 2',
       'año' : '',
     },
     'Suzanne Collins': {
-      'película': 'The Hunger Games: Mockingjay - Part 1', 'One for the Money',
+      'película': 'The Hunger Games: Mockingjay - Part 1',
       'año' : '',
     },
-    'escritor': {
+    'Carrie Ryan': {
       'película': 'The Forest of Hands and Teeth',
-      'año' : '',
+      'año' : '2018',
     },
-    'escritor': {
+    'Maggie Stiefvater': {
       'película': 'Shiver',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Susan Hill': {
       'película': 'The Woman in Black',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'William Joyce': {
       'película': 'Rise of the Guardians',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    ' Lee Child': {
       'película': 'Jack Reacher',
-      'año' : '',
+      'año' : '2012',
     },
-    'escritor': {
+    'Giles Foden': {
       'película': 'The Last King of Scotland',
-      'año' : '',
+      'año' : '2006',
     },
-    'escritor': {
+    'Robert Graysmith': {
       'película': 'Zodiac',
-      'año' : '',
+      'año' : '2007',
     }, 
-    'escritor': {
+    'Cormac McCarthy': {
       'película': 'No Country for Old Men',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Dennis Lehane': {
       'película': 'Gone Baby Gone',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Richard Matheson': {
       'película': 'I Am Legend',
-      'año' : '',
+      'año' : '2007',
     },
-    'escritor': {
+    'Joseph Finder': {
       'película': '21',
-      'año' : '',
+      'año' : '2008',
     },
-    'escritor': {
+    'Robert Harris': {
       'película': 'The Ghost Writer',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Dennis Lehane': {
       'película': 'Shutter Island',
-      'año' : '',
+      'año' : '2010',
     }, 
-    'escritor': {
+    'Rajiv Chandrasekaran': {
       'película': 'Green Zone',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Chuck Hogan': {
       'película': 'The Town',
-      'año' : '',
+      'año' : '2010',
     },
-    'escritor': {
+    'Michael Connelly': {
       'película': 'The Lincoln Lawyer',
-      'año' : '',
+      'año' : '2011',
     }, 
-    'escritor': {
+    'Lionel Shriver': {
       'película': 'We Need to Talk About Kevin',
-      'año' : '',
+      'año' : '2011',
     },
-    'escritor': {
+    'Stephen King': {
       'película': 'Misery',
-      'año' : '',
+      'año' : '1990',
     },
-    'escritor': {
+    'Stephen King': {
       'película': 'The Mist',
-      'año' : '',
+      'año' : '2007',
     }, 
-    'escritor': {
+    'John Grisham': {
       'película': 'The Pelican Brief',
-      'año' : '',
+      'año' : '1993',
     },
-    'escritor': {
+    'Alice Sebold': {
       'película': 'The Lovely Bones',
-      'año' : '',
+      'año' : '2009',
     },
-    'escritor': {
+    'Rick Riordan': {
       'película': 'Percy Jackson: Sea of Monsters',
-      'año' : '',
+      'año' : '2013',
     },
-    'escritor': {
+    'William Golding': {
       'película':  'Lord of the Flie',
-      'año' : '',
+      'año' : '1990',
     },
-    'escritor': {
+    'Jonathan Safran Foer': {
       'película':  'Extremely Loud & Incredibly Clos',
-      'año' : '',
+      'año' : '2011',
     },
     'Stephen King': {
       'película': 'The Green Mile',
