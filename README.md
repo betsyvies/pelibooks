@@ -35,7 +35,9 @@
    Herramientas utilizadas: Lluvia de ideas, entrevista presencial.
    Tiempo utilizado: 1 hr.
 
-                       ![imagen](assets/images/Encuesta-pelibooks.png)
+
+![imagen](assets/images/Encuesta-pelibooks.png)
+
 
 3. Ideación.
 
@@ -46,9 +48,13 @@
    Herramientas utilizadas: Material de laboratoria (UX), pizarra acrílica, google chrome.
    Tiempo utilizado: 1 1/2 hr.
 
+
 ![imagen](assets/images/Encuesta-preguntaUno.png)
+
 ![imagen](assets/images/sketch-mobile.jpg)
+
 ![imagen](assets/images/sketch-desktop.jpg)
+
 
 **MIÉRCOLES: 17/01/2017**
 
