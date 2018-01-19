@@ -127,7 +127,7 @@ link : https://trello.com/b/jqDvmEmO/pelibooks-encuentra-tu-libro-favorito-hecho
 
 ***
 
-## Fuente consultada
+## Fuentes consultadas
 
 [Laboratoria LMS](https://laboratoria1.gitbooks.io/hackathon/content/)
 

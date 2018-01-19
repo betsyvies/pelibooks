@@ -17,14 +17,14 @@ $(document).ready(function() {
               <div class="text-center">
               <img class="img-responsive img-pelis" src="${response.Poster}">
               <h5 class="font-style">${response.Title}</h5>
-              <a onclick="movieSelected('${response.imdbID}')" class="btn btn-primary" href="#">Movie Detaills</a>
+              <a onclick="movieSelected('${response.imdbID}')" class="btn btn-primary fade-out" href="#">Movie Detaills</a>
               </div>
             </div>
-            `);      
+            `);
             }
           });
           $('#container-film').html('');
-        });   
+        });
       }
     }
   });
@@ -67,7 +67,6 @@ function getMovie() {
         <p>${movie.Plot}</p>
         <hr>
         <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View iMDB</a>
-        <a href="index.html" class="btn btn-default">Go Back To Search</a>
       </div>
     </div>
     `;
