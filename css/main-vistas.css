@@ -124,6 +124,9 @@ form-bottom{
 #modal-sesion div.input-group{
   padding: 20px 0;
 }
+a.font-style{
+  color: #3b5998;
+}
 .form-bottom button{
   float: right;
   margin-bottom: 10px;
@@ -133,15 +136,12 @@ form-bottom{
 }
 .form-bottom p>a{
   padding-left: 10px;
-<<<<<<< HEAD
 }
 #modal-sesion .form{
   padding: 20px
 }
 div.modal-content{
-    background-color: rgb(205,91,69);
-=======
->>>>>>> eaa80c707bb544c005d5c2c58cc39636c14b8ddb
+  background-color: rgb(205,91,69);
 }
 #modal-sesion .form{
   padding: 20px
@@ -154,13 +154,18 @@ div.modal-content{
   margin-top: 1vh;
   margin-bottom: 0;
 }
-
-
-
+button.btn-create-account.btn-block {
+  width: 74%;
+  margin-left: 13%;
+}
 /*Estilos para vista filtros*/
 img.img-pelis{
   width: 100%;
   height: 45vh;
+}
+/*Estilos para vista movies*/
+.img-thumbnail, .thumbnail{
+  width: 100%;
 }
 div.embed-responsive-16by9 {
     margin-bottom: 5vh;
@@ -194,6 +199,10 @@ form.input-header{
 img.img-pelis {
     width: 100%;
     height: 30vh;
+}
+button.btn-create-account.btn-block {
+  width: 78%;
+  margin-left: 11%;
 }
 }
 @media (min-width: 992px) {
