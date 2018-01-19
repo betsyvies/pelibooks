@@ -1,13 +1,4 @@
-function getRatings(e) {
-  for (var i = 0; i < ratings.length; i++) {
 
-    tipos = ratings[];
-
-    console.log (e)
-  }
-  
-  
-  
   
   
   

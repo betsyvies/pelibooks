@@ -42,7 +42,7 @@ header nav.navbar.navbar-default{
   label {
     color: grey;
   }
-  .clasificacion {
+  .stars {
     direction: rtl;
     unicode-bidi: bidi-override;
   }
