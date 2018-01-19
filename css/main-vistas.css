@@ -17,6 +17,31 @@ body {
   background-attachment: fixed;
 }
 /*ESTILOS PARA VISTA HOME*/
+.navbar-pbooks{
+  border: none;
+  margin-bottom: 0;
+  background-color: #FFF;
+  padding: 10px 0px;
+}
+.navbar-brand>img{
+  width: 100px;
+}
+.logo {
+  width: 65px;
+}
+ul.nav {
+  padding-top: 0.1vh;
+  font-weight: bold;
+}
+ul.nav li a{
+  color: #FFF;
+}
+.padding-top-120{
+  padding-top: 120px;
+}
+button.margin-find{
+  margin-top: 3vh;
+}
 .fade-in{
   animation: fadeIn 4s;
 }
@@ -47,24 +72,30 @@ div.navbar-header{
   padding: 10px;
 }
 button.navbar-toggle{
-  margin-top: 0;
   margin-right: 0;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid #FFF;
+}
+a.search-style{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 25px;
+}
+span.glyphicon.glyphicon-search.pull-right{
+  margin-top: 2vh;
 }
 div.form-group {
     margin-bottom: 0;
     outline: none;
 }
-section.filters{
-  margin-bottom: 20px;
-  padding-top: 90px;
-}
 .carousel-inner>.item>img.height-222{
   width: 100%;
   height: 322px;
 }
-img.height-350{
+img.height-210{
   width: 100%;
-  height: 350px;
+  height: 210px;
 }
 div.width100, select.width100{
   width: 100%;
@@ -154,7 +185,7 @@ div.embed-responsive-16by9 {
     height: 510px;
 }
 form.input-header{
-  margin-top: 0.3vh;
+  margin-top: 0.8vh;
 }
 /*Estilos para sección filtros*/
 img.img-pelis {
@@ -168,6 +199,9 @@ img.img-pelis {
     width: 100%;
     height: 40vh;
 }
+ul.nav {
+  padding-top: 0.5vh;
+}
 }
 @media (min-width: 1200px) {
   /*Estilos para vista home*/
@@ -175,4 +209,5 @@ img.img-pelis {
     width: 100%;
     height: 55vh;
 }
+
 }
