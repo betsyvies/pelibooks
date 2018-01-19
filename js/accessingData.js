@@ -26,4 +26,4 @@ function getMovies() {
 };  
 getMovies();
 
-console.log());
+console.log(genres[2].moviesList[1]);

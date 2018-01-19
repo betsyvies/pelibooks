@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $genre = $('#genders');
-
+  
   $genre.on('change', function(event) {
     event.preventDefault();
     var $genre = $(this).val();

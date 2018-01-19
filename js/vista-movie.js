@@ -13,4 +13,3 @@ $(document).ready(function() {
 //     rating: 3.6
 //   });
 // });
-
