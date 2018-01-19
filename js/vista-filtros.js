@@ -10,7 +10,7 @@ $(document).ready(function() {
         var films = Object.keys(data[$genre]);
 
         films.forEach(element => {
-          $.getJSON('http://www.omdbapi.com/?apikey=b264a6c3&t=' + encodeURI(element)).then(function(response) {
+          $.getJSON('https://www.omdbapi.com/?apikey=b264a6c3&t=' + encodeURI(element)).then(function(response) {
             if (response.Poster !== undefined && response.Poster !== 'N/A') {
               $('#container-film').append(`
             <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
@@ -39,7 +39,7 @@ function movieSelected(id) {
 function getMovie() {
   let movieId = sessionStorage.getItem('movieId');
 
-  axios.get('http://www.omdbapi.com/?apikey=b264a6c3&i=' + movieId)
+  axios.get('https://www.omdbapi.com/?apikey=b264a6c3&i=' + movieId)
     .then((response) => {
       let movie = response.data;
 
