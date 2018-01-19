@@ -27,8 +27,11 @@ $(document).ready(function() {
   };
 
   // Creamos la función que dará el efecto fade out y fade in a las vistas home y filtro
-  $buttonFindMovieViewH.click(function() {
+  $viewFilters.css('display', 'none');
+  $buttonFindMovieViewH.click(function(event) {
+    event.preventDefault();
     $viewHome.fadeOut(1000, redireccionarPag3);
+    $viewFilters.fadeIn(2000);
   });
   function redireccionarPag3() {
 		 window.location.href = '../views/vista-filtros.html';

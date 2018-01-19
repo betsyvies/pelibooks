@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+$(document).ready(function() {
   // funcionalidad user
   $('#login-button').click(function() {
     $('#user').append('<p><strong>texto de prueba</strong></p>');
@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('#myModal').modal();
   });
 
-  var $name = $('#usrname');
+  var $name = $('#username');
   var $email = $('#email');
   var $password = $('#psw2');
   var $checked = $('input[type="checkbox"]');

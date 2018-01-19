@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(43,43,43,0.9);
+}
+.container-flex-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+}
+.vh80 {
+	height: 80vh;
+}
+.white{
+  color: #FFF;
+}
+.margin-top{
+  margin-top: 2vh;
+}
+a:hover {
+   color: #FFF;
+   text-decoration: underline;
+}
+a{
+  font-size: 20px;
+}

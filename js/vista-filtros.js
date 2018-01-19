@@ -16,7 +16,7 @@ $(document).ready(function() {
             <div class="col-xs-6 col-sm-3 col-md-3 margin-btm-img-pelis">
               <div class="text-center">
               <img class="img-responsive img-pelis" src="${response.Poster}">
-              <h5>${response.Title}</h5>
+              <h5 class="font-style">${response.Title}</h5>
               <a onclick="movieSelected('${response.imdbID}')" class="btn btn-primary" href="#">Movie Detaills</a>
               </div>
             </div>
@@ -38,18 +38,18 @@ function movieSelected(id) {
 
 function getMovie() {
   let movieId = sessionStorage.getItem('movieId');
-	
+
   axios.get('http://www.omdbapi.com/?apikey=b264a6c3&i=' + movieId)
     .then((response) => {
       let movie = response.data;
-		
+
       let output = `
     <div class="row">
-      <div class="col-md-4">
-        <img src="${movie.Poster}"  class="thumbnail">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-lg-4 col-lg-offset-0">
+        <img src="${movie.Poster}"  class="img-responsive thumbnail">
       </div>
-      <div class="col-md-8">
-        <h2>${movie.Title}</h2>
+      <div class="col-xs-12 col-md-12 col-lg-8">
+        <h2 class="font-style text-center">${movie.Title}</h2>
         <ul class="list-group">
           <li class="list-group-item"><strong>Genere: ${movie.Genre}</strong></li>
           <li class="list-group-item"><strong>Released: ${movie.Released}</strong></li>
@@ -71,7 +71,7 @@ function getMovie() {
       </div>
     </div>
     `;
-		
+
       $('#movie').html(output);
     })
     .catch((err) => {

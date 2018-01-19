@@ -10,6 +10,9 @@
 .margin-btm-img-pelis{
   margin-bottom: 2vh;
 }
+ul.nav li.none{
+  display: none;
+}
 body {
   background-image: url('https://c.pxhere.com/photos/3e/ff/wood_background_deck_wooden_texture_wall_floor_board-1184860.jpg!d'); /*CAPE HONEY*/
   background-repeat: no-repeat;
@@ -17,6 +20,31 @@ body {
   background-attachment: fixed;
 }
 /*ESTILOS PARA VISTA HOME*/
+.navbar-pbooks{
+  border: none;
+  margin-bottom: 0;
+  background-color: #FFF;
+  padding: 10px 0px;
+}
+.navbar-brand>img{
+  width: 100px;
+}
+.logo {
+  width: 65px;
+}
+ul.nav {
+  padding-top: 0.1vh;
+  font-weight: bold;
+}
+ul.nav li a{
+  color: #FFF;
+}
+.padding-top-120{
+  padding-top: 120px;
+}
+button.margin-find{
+  margin-top: 3vh;
+}
 .fade-in{
   animation: fadeIn 4s;
 }
@@ -47,24 +75,30 @@ div.navbar-header{
   padding: 10px;
 }
 button.navbar-toggle{
-  margin-top: 0;
   margin-right: 0;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid #FFF;
+}
+a.search-style{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 25px;
+}
+span.glyphicon.glyphicon-search.pull-right{
+  margin-top: 2vh;
 }
 div.form-group {
     margin-bottom: 0;
     outline: none;
 }
-section.filters{
-  margin-bottom: 20px;
-  padding-top: 90px;
-}
 .carousel-inner>.item>img.height-222{
   width: 100%;
   height: 322px;
 }
-img.height-350{
+img.height-210{
   width: 100%;
-  height: 350px;
+  height: 210px;
 }
 div.width100, select.width100{
   width: 100%;
@@ -90,6 +124,9 @@ form-bottom{
 #modal-sesion div.input-group{
   padding: 20px 0;
 }
+a.font-style{
+  color: #3b5998;
+}
 .form-bottom button{
   float: right;
   margin-bottom: 10px;
@@ -99,15 +136,12 @@ form-bottom{
 }
 .form-bottom p>a{
   padding-left: 10px;
-<<<<<<< HEAD
 }
 #modal-sesion .form{
   padding: 20px
 }
 div.modal-content{
-    background-color: rgb(205,91,69);
-=======
->>>>>>> eaa80c707bb544c005d5c2c58cc39636c14b8ddb
+  background-color: rgb(205,91,69);
 }
 #modal-sesion .form{
   padding: 20px
@@ -120,13 +154,18 @@ div.modal-content{
   margin-top: 1vh;
   margin-bottom: 0;
 }
-
-
-
+button.btn-create-account.btn-block {
+  width: 74%;
+  margin-left: 13%;
+}
 /*Estilos para vista filtros*/
 img.img-pelis{
   width: 100%;
   height: 45vh;
+}
+/*Estilos para vista movies*/
+.img-thumbnail, .thumbnail{
+  width: 100%;
 }
 div.embed-responsive-16by9 {
     margin-bottom: 5vh;
@@ -138,10 +177,13 @@ div.embed-responsive-16by9 {
 .padding-9{
   padding: 9px;
 }
+button.btn-public{
+  margin-top: 2vh;
+}
 @media (min-width: 768px) {
   /*Estilos para vista home*/
   ul.nav li {
-    display: inline-block !important;
+    display: inline-block;
   }
   img.logo-img{
     width: 40px;
@@ -154,12 +196,16 @@ div.embed-responsive-16by9 {
     height: 510px;
 }
 form.input-header{
-  margin-top: 0.3vh;
+  margin-top: 0.8vh;
 }
 /*Estilos para sección filtros*/
 img.img-pelis {
     width: 100%;
     height: 30vh;
+}
+button.btn-create-account.btn-block {
+  width: 78%;
+  margin-left: 11%;
 }
 }
 @media (min-width: 992px) {
@@ -168,11 +214,17 @@ img.img-pelis {
     width: 100%;
     height: 40vh;
 }
+ul.nav {
+  padding-top: 0.5vh;
+}
 }
 @media (min-width: 1200px) {
   /*Estilos para vista home*/
   img.img-pelis {
     width: 100%;
     height: 55vh;
+}
+ul.nav li.none{
+  display: none;
 }
 }
