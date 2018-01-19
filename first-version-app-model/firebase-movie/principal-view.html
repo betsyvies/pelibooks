@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Firebase Movie</title>
+		<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+   <div class="container">
+   	<div class="row">
+   		<div class="col-md-12 col-xs-12 text-center mrg-cont">
+   			<form>
+   <div class="form-group">
+    <label for="formGroupExampleInput">Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Enter your name...">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="check">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button id="submit-btn" type="button" class="btn btn-primary">Submit</button>
+  <div>
+  	<button id="google-btn" type="button" class="btn btn-danger">Sign up with Google account</button>
+  </div>
+</form>
+   		</div>
+   	</div>
+   </div>
+   
+   <div class="container">
+   <div class="row">
+   	<div class="col-xs-12 col-md-12">
+   		<div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="email-log" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="password-log" placeholder="Password">
+  </div>
+  <button id="login-btn" type="button" class="btn btn-primary">Log in</button>
+   </div>
+   	</div>
+   </div>
+   	
+   
+   <div class="container boxes">
+   	<div id="container-divs" class="row text-center">
+   		
+   	</div>
+   </div>
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+	  <script src="js/data.js"></script>
+	  <script src="vendors/js/jquery-3.2.1.min.js"></script>
+	  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
