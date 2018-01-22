@@ -14,11 +14,14 @@
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
     crossorigin="anonymous">
+  <!--Añadiendo cdn font awesome a la barra de navegador-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
   <!-- Mi css -->
   <link rel="stylesheet" type="text/css" href="../css/main-vistas.css">
 </head>
 
-<body id="view-movies" class="fade-in">
+<body id="view-movies">
   <!--Header-->
   <header>
     <nav class="navbar navbar-default navbar-pbooks navbar-fixed-top">
@@ -33,6 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
+                  <!--Solo vista mobile-->
                  <a class="navbar-brand" href="vista-home.html"><img src="../assets/images/pbooks.png" alt="Logo PeliBooks"></a>
                  <div class="col-sm-6 col-md-7 col-lg-8 hidden-xs">
                    <form class="input-header">
@@ -46,30 +50,76 @@
                            </div>
                     </form>
                  </div>
-                <a href="vista-input-mobile.html" class="search-style hidden-sm hidden-md hidden-lg"><span class="glyphicon glyphicon-search pull-right"></span></a>
+                 <!--Le damos la clase hidden al div para que no se muestre hasta que el usuario inicie sesión-->
+                 <div class="dropdown hidden-sm hidden-md hidden-lg pull-right hidden">
+                   <div id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <a href="#">
+                       <img src="../assets/images/default.jpg" alt="User" class="img-responsive img-circle img-user-header-mobile">
+                     </a>
+                   </div>
+                   <ul class="dropdown-menu" aria-labelledby="dLabel">
+                     <li><a href="#">Log Out</a></li>
+                   </ul>
+                 </div>
+                 <!--Final del div con clase hidden-->
+                 <a href="vista-input-mobile.html" class="search-style hidden-sm hidden-md hidden-lg"><span class="glyphicon glyphicon-search pull-right"></span></a>
                 <!-- Collect the nav links, forms, and other content for toggling -->
+                <!--Header solo vista desktop-->
                 <div class="navbar-right hidden-xs">
                   <ul class="nav">
                     <li class="active"><a href="vista-home.html" class="white">Home</a></li>
-                    <li>
-                      <a href="vista-filtros.html" class="white">Filters</a>
+                    <li><a href="vista-filtros.html" class="white">Filters</a></li>
+                    <li><a href="#" class="white" data-toggle="modal" data-target="#modal-sesion">Log In</a></li>
+                    <!--Agregamos la clase hidden para que no se muestre hasta que el usuario inicie sesión-->
+                    <li class="dropdown hidden">
+                      <div id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="#">
+                          <img src="../assets/images/default.jpg" alt="User" class="img-responsive img-circle img-user-header-desktop">
+                        </a>
+                      </div>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li class="log-out-dropdown"><a href="#" class="black">Log Out</a></li>
+                      </ul>
                     </li>
+                    <!--Fin de li con clase hidden-->
                   </ul>
                 </div>
              </div>
+             <!--Menú hamburguesa, vista mobile-->
              <!-- Collect the nav links, forms, and other content for toggling -->
              <div class="collapse hidden-sm hidden-md hidden-lg" id="bs-example-navbar-collapse-1">
                <ul class="nav">
                  <li class="active"><a href="vista-home.html" class="white">Home</a></li>
-                 <li>
-                   <a href="vista-filtros.html" class="white">Filters</a>
-                 </li>
+                 <li><a href="vista-filtros.html" class="white">Filters</a></li>
+                 <li><a href="#" class="white" data-toggle="modal" data-target="#modal-sesion">Log In</a></li>
                </ul>
              </div>
            </div>
          </div>
        </div>
     </nav>
+    <!--Modal iniciar sesión-->
+  <div id="modal-sesion" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-md pd-8">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img class="image-modal-sesion col-xs-4 col-xs-offset-4" src="../assets/images/user.png" alt="User">
+        </div>
+        <div class="modal-body">
+          <h3 class="text-center">
+            <span>¡Únete a Pelibooks!</span>
+          </h3>
+          <div class="modal-body">
+            <button class="btn text-bold color-white center-block btn-primary btn-block text-center pd-8" id="">
+              <span id=" " class="text-bold text-button-modal">Iniciar sesión con <i class="fa fa-google-plus-official" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </header>
   <!-- Section Movie Description -->
   <section class="movie-description padding-top-120">

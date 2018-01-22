@@ -4,7 +4,7 @@ $(document).ready(function() {
   var $password = $('#psw-login');
   var $buttonSubmit = $('#login-button');
 
-  // habilitar el boton  
+  // habilitar el boton
   var validateEmailLogin = false;
   var validatePasswordLogin = false;
 
@@ -37,5 +37,3 @@ $(document).ready(function() {
     }
   });
 });
-
-

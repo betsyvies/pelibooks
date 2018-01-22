@@ -32,12 +32,18 @@ body {
 .logo {
   width: 65px;
 }
+img.img-user-header-mobile{
+  width: 40px;
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+img.img-user-header-desktop{
+  width: 50px;
+  display: inline-block;
+}
 ul.nav {
   padding-top: 0.1vh;
   font-weight: bold;
-}
-ul.nav li a{
-  color: #FFF;
 }
 .padding-top-120{
   padding-top: 120px;
@@ -116,48 +122,27 @@ img.logo-img{
   width: 50px;
 }
 /*Estilos para modales*/
-form-bottom{
-  display: table;
-  overflow: auto;
-  margin-left: 20%;
+/*modal con gmail-- inicio*/
+.pd-8 {
+  padding: 8px;
 }
-#modal-sesion div.input-group{
-  padding: 20px 0;
+-mg-5 {
+  margin: 5px;
 }
-a.font-style{
-  color: #3b5998;
+.fa-google-plus-official {
+  color: #dd4d40;
+  font-size: 28px;
+  text-shadow: 0.5px 0.4px rgb(26, 14, 14);
+  margin-left: 0.5vw;
 }
-.form-bottom button{
-  float: right;
-  margin-bottom: 10px;
+.modal-content{
+  background: linear-gradient( rgb(205,91,69)60%, rgb(205,91,69));
 }
-.form-bottom p{
-  display: table-footer-group;
+.text-button-modal {
+  font-size: 20px;
 }
-.form-bottom p>a{
-  padding-left: 10px;
-}
-#modal-sesion .form{
-  padding: 20px
-}
-div.modal-content{
-  background-color: rgb(205,91,69);
-}
-#modal-sesion .form{
-  padding: 20px
-}
-div.modal-content{
-    background-color: rgb(205,91,69);
-}
-/*Estilo para modal registro*/
-.mt-2 {
-  margin-top: 1vh;
-  margin-bottom: 0;
-}
-button.btn-create-account.btn-block {
-  width: 74%;
-  margin-left: 13%;
-}
+/*modal modal con gmail-- fin */
+
 /*Estilos para vista filtros*/
 img.img-pelis{
   width: 100%;
@@ -184,6 +169,12 @@ button.btn-public{
   /*Estilos para vista home*/
   ul.nav li {
     display: inline-block;
+  }
+  a.black{
+    color: #000;
+  }
+  ul li.log-out-dropdown{
+    display: block;
   }
   img.logo-img{
     width: 40px;
